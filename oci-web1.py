@@ -182,4 +182,4 @@ print()
 # the [] are there for use by javascript
 print("Writing the data.json file...")
 saveFile("[" + json + "]",
-         "/home/evinck/Documents/OCI-Commander/DocumentRoot/data.json")
+         "DocumentRoot/data.json")
