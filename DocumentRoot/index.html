@@ -11,13 +11,13 @@
 
 <body>
     <header class="headband">
-        <!----> OCI Companion (alpha version) - Refresh every 15mins approx - contact: eric.vinck@oracle.com --> 
+        <!-- OCI Companion (alpha version) - Refresh every 15mins approx - contact: eric.vinck@oracle.com --> 
         OCI Companion (alpha version) - contact: eric.vinck@oracle.com
     </header>
 
     <main>
         <div class="row">
-            <div class="split left">
+            <div class="split left" id="leftSide">
                 <div id="json-tree">
                     <script>
                     // Fetch JSON data from an external file
@@ -36,20 +36,24 @@
 
                     // Add a click event handler
                     $('#json-tree').on('select_node.jstree', function (e, data) {
-                        var selectedNode = data.node.text;
-                        // console.log('Clicked on: ' + selectedNode);
-                        $('#detailed').text(selectedNode)
+                        var selectedNode = data.node.data;
+                        console.log('Clicked on: ' + data.node.id);
+                        // $('#detailed-name').text("Name : " + selectedNode.display_name)
+                        document.getElementById("detailed").innerHTML = "<table><tbody>" 
+                        + "<tr><td>" + "Name: " + "</td>" + "<td>" + selectedNode.display_name + "</td></tr>"
+                        + "<tr><td>" + "OCID: " + "</td>" + "<td>" + selectedNode.ocid +"</td></tr>"
+                        + "<tr><td>" + "URL: " + "</td>" + "<td>"  + "<a href=\"https://cloud.oracle.com/search?q=" + selectedNode.ocid +"\" target=\"blank\">OCI console</a>" + "</td></tr>"
+                        + "</tbody></table>";
                     });
                     </script>
                 </div>
             </div>
-            <div class="split right">
-                <div id="detailed">
-                    This is a placeHolder
+            <!-- <div class="split resizer" id="dragMe"></div> -->
+            <div class="split right" id="rightSide">
+                <div id="detailed" readonly="True" style="height:100px;width:800px">
                 </div>
             </div>
     </main>
-
 </body>
 
 </html>
