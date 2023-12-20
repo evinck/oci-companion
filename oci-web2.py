@@ -162,7 +162,7 @@ def makeJSSubTree(database, ocid):
             json += makeJSSubTree(database, key)
     return json
 
-# 
+# TODO
 def guess_region_fromocid(ocid):
     region =""
     return region

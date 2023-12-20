@@ -1,13 +1,7 @@
-import oci
-import json
-import argparse
-import os
-import sys
+import oci, json, argparse, os, sys, re
 
 # utilities
-
-
-def saveFile(data, file_path):
+def save2File(data, file_path):
     with open(file_path, "w") as file:
         # Write the variable to the file
         file.write(data)
@@ -15,35 +9,37 @@ def saveFile(data, file_path):
 
 # Argument Parsing
 parser = argparse.ArgumentParser()
-parser.add_argument('--profile', dest='profile_name', action='store',
+parser.add_argument('--profile', dest='profile_name', action='store', required=False,
                     default="DEFAULT", help='the oci profile name')
-
 parser.add_argument('--profile-location', dest='profile_location', action='store',
                     default="~/.oci/config", help='the oci config location')
-
-parser.add_argument(dest='compartment_id', type=str, nargs=1,
+parser.add_argument('--compartment_id', dest='compartment_id', action='store', required=False,
                     help='the compartment id')
-
+parser.add_argument('--output', dest='output_location', action='store',
+                    default="DocumentRoot/data.json", help='the data.json location')
 parser.add_argument('--debug', action='store_true',
                     help='will print out debug messages')
 parser.add_argument('--debugFiles', action='store_true',
                     help='will output some files in a "debug" subdirectory')
-
-
 args = parser.parse_args()
-
-# Summary of what you get from args
-profile_name = args.profile_name
-compartmentId = args.compartment_id[0]
-debug = args.debug
-debugFiles = args.debugFiles
-
 
 # Config
 config = oci.config.from_file(
     profile_name=args.profile_name, file_location=args.profile_location)
 subscribed_regions = oci.identity.IdentityClient(
     config).list_region_subscriptions(tenancy_id=config["tenancy"]).data
+
+# Summary of what you get from args
+profile_name = args.profile_name
+output_location = args.output_location
+debug = args.debug
+debugFiles = args.debugFiles
+
+# Set the compartment to start from
+compartmentId = args.compartment_id
+if (compartmentId == None):
+    print("No compartment specified, will go for the whole tenancy (can be long !).")
+    compartmentId = config["tenancy"]
 
 # Init the search clients
 search_clients = {}
@@ -54,8 +50,6 @@ for region in subscribed_regions:
 
 # Search
 # query_string = "query all resources return allAdditionalFields where compartmentId='{}' ".format(args.compartment_id[0])
-
-
 def queryOCI(compartmentId):
     query_string = "query all resources where compartmentId='{}' sorted by displayName asc".format(
         compartmentId)
@@ -89,9 +83,11 @@ def queryOCI(compartmentId):
     return data
 
 
+pattern=r'\\[a-zA-Z]'
 debugFileNumber = 0
 def makeJsonFromOCI(data):
     global debugFileNumber
+    global pattern
     newjson = {}
 
     for item in data:
@@ -110,19 +106,22 @@ def makeJsonFromOCI(data):
             newjson[item.resource_type]["number"] = 0
             newjson[item.resource_type]["items"] = {}
 
+        # This below to get rid of \a \c etc... in display names
+        display_name = re.sub(pattern,'',str(item.display_name))
         try:
-            if newjson[item.resource_type]["items"][item.display_name] == item.identifier:
+            # this will handle duplicates (from regions) : for ressources like user,group, etc..
+            if newjson[item.resource_type]["items"][display_name] == item.identifier:
                 continue
         except:
             newjson[item.resource_type]["number"] = newjson[item.resource_type]["number"] + 1
-            newjson[item.resource_type]["items"][item.display_name] = item.identifier
+            newjson[item.resource_type]["items"][display_name] = item.identifier
 
     # TODO sort the json based on 1/ resource_type and 2/ items
     # sort a dict ?
 
     if (debugFiles):
         os.makedirs("debug", exist_ok=True)
-        saveFile(json.dumps(newjson),
+        save2File(json.dumps(newjson),
                  "debug/output-{}.json".format(debugFileNumber))
         debugFileNumber += 1
 
@@ -141,8 +140,11 @@ def makeTree(compartmentId, topLevelNodeName):
 
 
 def makeSubTree(data, parent_node_name):
-    print('.', end='')
-    sys.stdout.flush()
+    # for the progress bar
+    if (not debug) :
+        print('.', end='')
+        sys.stdout.flush()
+
     newjson = ""
 
     for position, (key, value) in enumerate(data.items()):
@@ -180,6 +182,5 @@ json = makeTree(compartmentId, "top")
 print()
 
 # the [] are there for use by javascript
-print("Writing the data.json file...")
-saveFile("[" + json + "]",
-         "DocumentRoot/data.json")
+print("Writing the data.json file to {}".format(output_location))
+save2File("[" + json + "]", output_location)
