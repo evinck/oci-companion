@@ -23,20 +23,20 @@ parser.add_argument('--debugFiles', action='store_true',
                     help='will output some files in a "debug" subdirectory')
 args = parser.parse_args()
 
-# Config
-config = oci.config.from_file(
-    profile_name=args.profile_name, file_location=args.profile_location)
-subscribed_regions = oci.identity.IdentityClient(
-    config).list_region_subscriptions(tenancy_id=config["tenancy"]).data
-
 # Summary of what you get from args
 profile_name = args.profile_name
 output_location = args.output_location
 debug = args.debug
 debugFiles = args.debugFiles
+compartmentId = args.compartment_id
+
+# OCI Config
+config = oci.config.from_file(
+    profile_name=args.profile_name, file_location=args.profile_location)
+subscribed_regions = oci.identity.IdentityClient(
+    config).list_region_subscriptions(tenancy_id=config["tenancy"]).data
 
 # Set the compartment to start from
-compartmentId = args.compartment_id
 if (compartmentId == None):
     print("No compartment specified, will go for the whole tenancy (can be long !).")
     compartmentId = config["tenancy"]
@@ -48,9 +48,11 @@ for region in subscribed_regions:
     search_clients[region.region_name] = oci.resource_search.ResourceSearchClient(
         config)
 
-# Search
-# query_string = "query all resources return allAdditionalFields where compartmentId='{}' ".format(args.compartment_id[0])
+# Fill in the database with OCI
+# TODO : avoid searching identity resources each time
+debugFileNumber=0
 def queryOCI(compartmentId):
+    global debugFileNumber
     query_string = "query all resources where compartmentId='{}' sorted by displayName asc".format(
         compartmentId)
 
@@ -80,106 +82,196 @@ def queryOCI(compartmentId):
         print("DEBUG: {} elements acquired from OCI for compartment {} (total in all regions).".format(
             len(data), compartmentId))
 
-    return data
-
-
-pattern=r'\\[a-zA-Z]'
-debugFileNumber = 0
-def makeJsonFromOCI(data):
-    global debugFileNumber
-    global pattern
-    newjson = {}
-
-    for item in data:
-
-        try:
-            if str.upper(item.lifecycle_state) in ['DELETING', 'DELETED', 'TERMINATING', 'TERMINATED']:
-                continue
-                # pass
-        except:
-            pass
-
-        try:
-            newjson[item.resource_type]
-        except:
-            newjson[item.resource_type] = {}
-            newjson[item.resource_type]["number"] = 0
-            newjson[item.resource_type]["items"] = {}
-
-        # This below to get rid of \a \c etc... in display names
-        display_name = re.sub(pattern,'',str(item.display_name))
-        try:
-            # this will handle duplicates (from regions) : for ressources like user,group, etc..
-            if newjson[item.resource_type]["items"][display_name] == item.identifier:
-                continue
-        except:
-            newjson[item.resource_type]["number"] = newjson[item.resource_type]["number"] + 1
-            newjson[item.resource_type]["items"][display_name] = item.identifier
-
-    # TODO sort the json based on 1/ resource_type and 2/ items
-    # sort a dict ?
-
     if (debugFiles):
         os.makedirs("debug", exist_ok=True)
-        save2File(json.dumps(newjson),
+        save2File(str(data),
                  "debug/output-{}.json".format(debugFileNumber))
         debugFileNumber += 1
 
-    return json.dumps(newjson)
+    return data
 
+# Database
+# each Database entry should be like {"ocid...",{"parent":"xxx","type":"xxx","display":"name","rawdata":"xxxx"}}
+pattern=r'\\[a-zA-Z]'
+def fillDatabase(database, compartmentId):
 
-def makeTree(compartmentId, topLevelNodeName):
-    data = '{{"id": "{}", "parent": "#", "text": "<b>{}</b>", "state" :{{"opened":"true"}}}},\n'.format(
-        topLevelNodeName, compartmentId)
-    query = queryOCI(compartmentId)
-
-    data += makeSubTree(json.loads(makeJsonFromOCI(query)), topLevelNodeName)
-
-    # we need to remove the last comma
-    return data[:-2]
-
-
-def makeSubTree(data, parent_node_name):
     # for the progress bar
     if (not debug) :
         print('.', end='')
         sys.stdout.flush()
 
-    newjson = ""
+    data = queryOCI(compartmentId)
+    for item in data:
+        # skip if item has already been processed
+        try :
+            database[item.identifier]
+            continue
+        except:
+            pass
+        # skip if state is not useful for us
+        # try/except because some resources don't have the lifecycle_state value
+        try :
+            if str.upper(item.lifecycle_state) in ['DELETING', 'DELETED', 'TERMINATING', 'TERMINATED']:
+                continue
+        except:
+            pass
 
-    for position, (key, value) in enumerate(data.items()):
-        node_id = "{}_{}".format(parent_node_name, position)
-        text = "<b>{}</b> ({})".format(key, value.get("number"))
+        # Recursion for compartments
+        if item.resource_type == 'Compartment':
+            # Check if compartment hasn't been processed already (identity information got multiple times - from each region)
+            try :
+                database[item.identifier]
+                continue
+            except:
+                fillDatabase(database, item.identifier)
 
-        if key == 'Compartment':
-            newjson += '{{"id": "{}", "parent": "{}", "text": "{}","state" :{{"opened":"true"}}}},\n'.format(
-                node_id, parent_node_name, text)
-        else:
-            newjson += '{{"id": "{}", "parent": "{}", "text": "{}"}},\n'.format(
-                node_id, parent_node_name, text)
+        key = item.identifier
+        value_dict = {}
+        value_dict['parent'] = compartmentId
+        value_dict['type'] = item.resource_type
+        # clean up the display name
+        display_name = re.sub(pattern,'',str(item.display_name))
+        value_dict["display_name"]= display_name
+        value_dict['rawdata'] = item.__dict__
 
-        for position2, (key2, value2) in enumerate(value.get("items").items()):
-            node_item_id = "{}_{}".format(node_id, position2)
+        database[key]=value_dict
 
-            if key == 'Compartment':
-                text = "<b>{}</b> ({})".format(key2, value2)
-                newjson += '{{"id": "{}", "parent": "{}", "text": "{}"}},\n'.format(
-                    node_item_id, node_id, text)
-                # Recursion
-                newjson += makeSubTree(json.loads(
-                    makeJsonFromOCI(queryOCI(value2))), node_item_id)
-            else:
-                text = "<b>{}</b> ({})".format(key2, value2)
-                newjson += '{{"id": "{}", "parent": "{}", "text": "{}", "icon":"images/leaf.png"}},\n'.format(
-                    node_item_id, node_id, text)
+    return 
 
-    return newjson
+# The main to call
+def makeJSTree(database, top_ocid):
+    json = '{{"id": "{}", "parent": "#", "text": "<b>{}</b>", "state" :{{"opened":"true"}}}},\n'.format(top_ocid, top_ocid)
+    
+    #json += makeJSSubTree(database, top_ocid)
+    json += makeJSSubTreeSortedByType(database, top_ocid)
+    #json += makeJSSubTreeConsolidatedByType(database, top_ocid)
+
+    # remove the last comma
+    return json[:-2]
+
+# Regular SubTree
+def makeJSSubTree(database, ocid):
+    json = ""
+
+    subnode_keys = [key for key,value in database.items() if value['parent'] == ocid ]
+
+    for key in subnode_keys:
+        # json +=  '{{"id": "{}", "parent": "{}", "text": "<b>{}</b>", "state" :{{"opened":"true"}}}},\n'.format(key, ocid, database[key]["display_name"])
+        json +=  '{{"id": "{}", "parent": "{}", "text": "<b>{}</b>"}},\n'.format(key, ocid, database[key]["display_name"])
+        # recursion
+        if database[key]['type'] == 'Compartment':
+            json += makeJSSubTree(database, key)
+    return json
+
+# TODO
+def guess_region_fromocid(ocid):
+    region = ""
+    pattern = r'\.oc1\.([^\.]*)\.'
+    match = re.search(pattern, ocid)
+    region = match.group(1) if match else subscribed_regions[0]
+
+    return region
+
+# We'll use this one to build the data field 
+def makeJSTreeDataItem(database, ocid):
+    # TypeError: Object of type datetime is not JSON serializable
+    #dataItem = database[ocid]['rawdata']
+    dataItem={}
+    dataItem['display_name']=database[ocid]['display_name']
+    dataItem['ocid']=ocid
+    dataItem['url']="https://cloud.oracle.com/search?q=" + ocid + "&region=" + guess_region_fromocid(ocid)
+     
+    return dataItem
+
+# IconChooser
+DefaultIcon = "images/leaf.png"
+IconChooser = {
+    "Directory" :"images/directory.svg",
+    "Compartment" : "images/Compartments.svg",
+    "Bucket" : "images/Buckets.svg",
+    "Instance" : "images/Virtual Machine.svg",
+    "User" : "images/User.svg",
+    "Group" : "images/User Group unisex.svg"
+}
+
+# The main one
+# Subtree with types identified and counted
+def makeJSSubTreeSortedByType(database, ocid):
+    njson = ""
+
+    subnode_keys = [key for key,value in database.items() if value['parent'] == ocid]
+    
+    typesCount = {}
+    for key in subnode_keys:
+        try:
+            typesCount[database[key]['type']] +=1
+        except:
+            typesCount[database[key]['type']] = 1
+
+    # Create subnodes for types
+    for key,value in typesCount.items():
+        icon = IconChooser['Directory']
+        if  key == 'Compartment':
+            # Compartments type is opened by default
+            njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "icon:":"{}", "state" :{{"opened":"true"}}}},\n'.format(ocid, key, ocid, key, value, icon)
+        else : 
+            njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "icon:":"{}"}},\n'.format(ocid, key, ocid, key, value, icon)
+
+    # Create subnodes sorted in each type
+    for key in subnode_keys:
+        dataItem = json.dumps(makeJSTreeDataItem(database, key))
+        icon = IconChooser.get(database[key]['type'],DefaultIcon)
+
+        njson +=  '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>", "icon":"{}", "data" : {}}},\n'.format(key, ocid, database[key]['type'], database[key]['display_name'],icon,dataItem)
+        # recursion
+
+        if database[key]["type"] == 'Compartment':
+            njson += makeJSSubTreeSortedByType(database, key)
+
+    return njson
+
+# "Flat subtree consolidated by type"
+def allsubnodes_keys(database, ocid):
+    subnode_keys = [key for key,value in database.items() if value['parent'] == ocid]
+    toReturn = subnode_keys
+    for key in subnode_keys:
+        toReturn += allsubnodes_keys(database, key)
+    return toReturn
+
+def makeJSSubTreeConsolidatedByType(database, ocid):
+
+    json = ""
+    all_keys = allsubnodes_keys(database,ocid)
+    typesCount = {}
+    for key in all_keys :
+        try:
+            typesCount[database[key]['type']] +=1
+        except:
+            typesCount[database[key]['type']] = 1
+
+    for key,value in typesCount.items():
+        json +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>"}},\n'.format(ocid, key, ocid, key, value)
+
+    for key in all_keys:
+        json +=  '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>"}},\n'.format(key, ocid, database[key]['type'], database[key]['display_name'])
+
+    return json
 
 
-print("Generating the json file (can be long !) ..", end='')
+# Start of the script
+print("Querying OCI and making up internal database (can be long !) ..", end='')
 sys.stdout.flush()
-json = makeTree(compartmentId, "top")
-print()
+
+# build the database of OCI objects
+database = {}
+fillDatabase(database, compartmentId)
+print(".")
+
+if debugFiles :
+    save2File(str(database),"database.debug")
+
+# build the json tree for html display
+json = makeJSTree(database, compartmentId)
 
 # the [] are there for use by javascript
 print("Writing the data.json file to {}".format(output_location))

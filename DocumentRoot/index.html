@@ -12,7 +12,7 @@
 <body>
     <header class="headband">
         <!-- OCI Companion (alpha version) - Refresh every 15mins approx - contact: eric.vinck@oracle.com --> 
-        OCI Companion (alpha version) - contact: eric.vinck@oracle.com
+        OCI Companion (alpha version) - contact: eric.vinck@oracle.com - refresh every 25mins (approx.) - refresh the page to see updated version :)
     </header>
 
     <main>
@@ -42,7 +42,7 @@
                         document.getElementById("detailed").innerHTML = "<table><tbody>" 
                         + "<tr><td>" + "Name: " + "</td>" + "<td>" + selectedNode.display_name + "</td></tr>"
                         + "<tr><td>" + "OCID: " + "</td>" + "<td>" + selectedNode.ocid +"</td></tr>"
-                        + "<tr><td>" + "URL: " + "</td>" + "<td>"  + "<a href=\"https://cloud.oracle.com/search?q=" + selectedNode.ocid +"\" target=\"blank\">OCI console</a>" + "</td></tr>"
+                        + "<tr><td>" + "URL: " + "</td>" + "<td>"  + "<a href=\"" + selectedNode.url + "\" target=\"blank\">OCI console</a>" + "</td></tr>"
                         + "</tbody></table>";
                     });
                     </script>
