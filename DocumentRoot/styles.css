@@ -1,0 +1,52 @@
+/* Apply some basic styles to your header */
+.headband {
+    background-color: #333;
+    /* Background color for the header */
+    color: #fff;
+    /* Text color for the header */
+    padding: 10px;
+    /* Padding for the header content */
+    position: fixed;
+    /* Fix the header at the top of the page */
+    top: 0;
+    /* Stick it to the top */
+    left: 0;
+    width: 100%;
+    /* Take up the full width of the viewport */
+    z-index: 100;
+    /* Ensure it appears on top of other content */
+    /* border-bottom: 2px solid #fff; /* Add a white line beneath the header */
+}
+
+
+.filters { grid-area: filters; }
+.left { grid-area: left; }
+.right { 
+    grid-area: right; 
+    position: relative;
+}
+
+.right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px; /* Adjust the position of the vertical bar */
+    width: 1px; /* Width of the vertical bar */
+    background-color: #000; /* Color of the vertical bar */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'filters filters'
+        'left right';
+    gap: 10px;
+    padding: 10px;
+}
+
+main {
+    padding-top: 30px;
+    /* Adjust this value as needed based on your header's height */
+}
+

@@ -10,16 +10,28 @@
 </head>
 
 <body>
+
     <header class="headband">
-        <!-- OCI Companion (alpha version) - Refresh every 15mins approx - contact: eric.vinck@oracle.com --> 
-        OCI Companion (alpha version) - contact: eric.vinck@oracle.com - refresh every 25mins (approx.) - refresh the page to see updated version :)
+        OCI Companion (alpha version) - contact: eric.vinck@oracle.com
     </header>
 
     <main>
-        <div class="row">
-            <div class="split left" id="leftSide">
-                <div id="json-tree">
-                    <script>
+    <div class="grid-container">    
+        <div class="filters">
+        <fieldset>
+            <legend>Options</legend>
+            <div>
+              <input type="button" value="Find Database Instances" id="databaseOnly"/>
+              <input type="button" value="Find Compute Instances" id="computeOnly"/>
+              <input type="button" value="Open All" id="allExpanded"/>
+              <input type="button" value="Close All" id="allClosed"/>
+            </div>
+          </fieldset>
+        </div>    
+
+        <div class="left" id="leftSide">
+            <div id="json-tree">
+                <script>
                     // Fetch JSON data from an external file
                     $.getJSON('data.json', function (jsonData) {
                             initializeTree(jsonData);
@@ -27,14 +39,14 @@
 
                     function initializeTree(jsonData) {
                         $('#json-tree').jstree({
-                            "plugins" : [ "search" ],
+                            // "plugins" : [ "search" ],
                             'core': {
-                                'data': jsonData,
+                                'data': jsonData
                             },
                         });
-                    };
+                    }
 
-                    // Add a click event handler
+                    // Add a click event handler for details pane
                     $('#json-tree').on('select_node.jstree', function (e, data) {
                         var selectedNode = data.node.data;
                         console.log('Clicked on: ' + data.node.id);
@@ -45,14 +57,93 @@
                         + "<tr><td>" + "URL: " + "</td>" + "<td>"  + "<a href=\"" + selectedNode.url + "\" target=\"blank\">OCI console</a>" + "</td></tr>"
                         + "</tbody></table>";
                     });
-                    </script>
-                </div>
+
+                    // Get the top node Id
+                    $('#json-tree').on('loaded.jstree', function (e, data) {
+                        topNodeId = $('#json-tree').jstree(true).get_children_dom($('#json-tree').jstree(true).get_node('#'))[0].id;    
+                    });
+
+
+                    function allExpandedFn() {
+                        console.log('debug allExpanded');
+                        $('#json-tree').jstree(true).open_all();
+                    }
+                   
+
+                    function allClosedFn() {
+                        console.log('debug allClosed');
+
+                        $('#json-tree').jstree(true).close_all();
+                        $('#json-tree').jstree(true).open_node(topNodeId);     
+                    }
+
+                    // computeOnly
+                    function computeOnlyFn() {
+                        console.log('debug computeOnly');
+
+                        $('#json-tree').jstree(true).close_all();
+
+                        var allNodes = $('#json-tree').jstree(true).get_json('#', { flat: true });
+                        
+                        allNodes.forEach(function(node) {
+                            if (node.data.node_type == "Instance") {
+                                
+                                console.log('instance found');
+                                $('#json-tree').jstree(true).open_node(node.id);   
+                                $('#json-tree').jstree(true)._open_to(node.id);                    
+                            }
+                        });
+                        
+                    }
+
+                    function databaseOnlyFn() {
+                        console.log('debug databaseOnly');
+
+                        $('#json-tree').jstree(true).close_all();
+
+                        var allNodes = $('#json-tree').jstree(true).get_json('#', { flat: true });
+                        
+                        allNodes.forEach(function(node) {
+                            if (node.data.node_type == "AutonomousDatabase") {
+                                
+                                console.log('instance found');
+                                $('#json-tree').jstree(true).open_node(node.id);   
+                                $('#json-tree').jstree(true)._open_to(node.id);                    
+                            }
+                        });
+                        
+                    }
+
+
+                    // Add button actions
+                    document.getElementById('allExpanded').addEventListener('click', function() {
+                        allExpandedFn();
+                    });
+
+                    document.getElementById('allClosed').addEventListener('click', function() {
+                        allClosedFn();
+                    });
+
+                    document.getElementById('computeOnly').addEventListener('click',  function() {
+                        computeOnlyFn();
+                    });
+
+                    document.getElementById('databaseOnly').addEventListener('click', function() {
+                        databaseOnlyFn();
+                    });
+
+
+
+                </script>
             </div>
-            <!-- <div class="split resizer" id="dragMe"></div> -->
-            <div class="split right" id="rightSide">
-                <div id="detailed" readonly="True" style="height:100px;width:800px">
-                </div>
+        </div>
+        
+        <!-- <div class="split resizer" id="dragMe"></div> -->
+        <div class="right" id="rightSide">
+            <div id="detailed" readonly="True" style="height:100px;width:800px">
             </div>
+        </div>
+    </div>    
     </main>
 </body>
 

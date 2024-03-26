@@ -1,0 +1,433 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "0.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaawzzbe7rjuc6cnirdq73nb5etghyw4qqa67k7tmm4xhlbf4eyemxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:34.995000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "1.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaazlq646xe5t5747bg7ix3xzvxzp7yyink36v3givqwgaaprcrehfq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:35.284000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "2.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaanjmtrd6dskgp2vwouhxoxmkx6ohc64xginmv6ye5rlme37k6dq4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:35.514000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "3.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaa3srklm2gf7bbs6ijpugtar4f6vetyqmgatgy5rlgif2sbbcwezfa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:36.237000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "4.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaapttxbp7fyvs367cuup5kljeygb2x3gyxeamgiadjxoxg67a66pqq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:36.491000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "5.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaaiwvpqxaponwjqekepabif3ozkhg6fqryjcofacvkr6u4wkfoulsa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:36.879000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "6.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaa2uaz2z7lgij7ktxyty6e5ip4nx7fch47nbcwt2nlhsqio7lqblea",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:37.217000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "7.100.168.192.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaauxmlyfrapsq24qnekwps25awzzjwvr3smfdnh4tf5vcegpqfynqa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:37.617000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default DHCP Options for emeac3001vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaaml6vbhwbmsbe4bmw3aw5xargoqanaedtiyxwidzaoftb434yjhpq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DHCPOptions",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:33.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Route Table for emeac3001vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.uk-london-1.aaaaaaaauxujvq2qkuirc7bu7izabmovsmkq23ktudnb7w6hx5pj74lrr6ua",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:33.616000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Security List for emeac3001vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaaqrvckbohrohtir6r3pwymcz3dgjvmsaf5xvbsor2ftgvudsy36pa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:33.616000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:32:22.034Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001",
+  "freeform_tags": {},
+  "identifier": "ocid1.cccinfrastructure.oc1.uk-london-1.amaaaaaanmvrbeaa7asvetcncznabonvzjlxblci7fkjmke2lixi3qusae7q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CccInfrastructure",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:32:22.265000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:16:43.615Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001subnet",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.uk-london-1.aaaaaaaaco2qcgddrks2tijsnda67bjpk6p4ttdymk5lr3m7wty2osujrcoq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:16:43.657000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:16:43.615Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001subnet.emeac3001vcn.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaadassl7kshxrx7wvjg67l3dknhe52z3mkzmlw7cocptp5w2kb4g5q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:16:44.605000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:30:30.080Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001upgradeschedule",
+  "freeform_tags": {},
+  "identifier": "ocid1.cccupgradeschedule.oc1.uk-london-1.amaaaaaanmvrbeaa3ja7cchv3ghv5oqv2gdm5ejpmjlg23z5u66e4gnoyvaa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CccUpgradeSchedule",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:30:30.203000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsresolver.oc1.uk-london-1.amaaaaaanmvrbeaabp4tvazwtavorltpseuhvztbynpmfsrifbo3ztlnyw7a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsResolver",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:34.565000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsview.oc1.uk-london-1.aaaaaaaa7emfroaera6fsnjuyiwn4o3xpqsvz76rs55ivkwmrgo5s2oqd4zq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsView",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:34.565000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxaqapaay7skcbvpueussfdty3zuawyzxeadreakyjxyaebbo2eua",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/angus.myles@oracle.com",
+      "CreatedOn": "2024-01-26T10:15:33.524Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emeac3001vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.vcn.oc1.uk-london-1.amaaaaaanmvrbeaap324pvc6qka4acy7m3dpsr6barw3qad4d4op5cny3agq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vcn",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-26T10:15:33.616000+00:00"
+}]

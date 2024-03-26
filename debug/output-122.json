@@ -1,0 +1,115 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2024-01-29T07:22:48.911Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BW_VCN",
+  "freeform_tags": {
+    "VCN": "VCN-2024-01-29T07:22:25"
+  },
+  "identifier": "ocid1.dnsview.oc1.eu-frankfurt-1.aaaaaaaahwo4w7l7c5fkdkzqqwqxezwhrzurn6twfkkqqywf44oys4kmnf7q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsView",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-29T07:22:49.779000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2024-01-29T23:53:37.999Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bw_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.loggroup.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa5a67hxdaaghdpawbbaxsofv2jkvmd756enisziup5dbq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "LogGroup",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-29T23:53:38.064000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "logging",
+      "CreatedOn": "2024-02-01T09:16:02.278Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "service"
+    }
+  },
+  "display_name": "oci-logs._flowlogs.ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.eu-frankfurt-1.aaaaaaaagtt6x3ra2bwexquyxowguau3fgorqlpikkt5jcxsicimbipyfmfq",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T09:16:02.297000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "defined_tags": {},
+  "display_name": "oci-logs._flowlogs.ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaahjz34rwpm6gkgwerfgzzwbog5fwahidxjv6dg6lwkdra",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-06T00:01:20.888000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaozwcukd2ohljesqmmgny2utxo4adeovnrcqntieoetwyqa2mquba",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2024-01-29T23:54:05.012Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "vcn_private",
+  "freeform_tags": {},
+  "identifier": "ocid1.log.oc1.eu-frankfurt-1.amaaaaaanmvrbeaayygigbzswngat2svjhufipacq6ppsdjnm27vujd5gvma",
+  "identity_context": {
+    "logGroupId": "ocid1.loggroup.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa5a67hxdaaghdpawbbaxsofv2jkvmd756enisziup5dbq"
+  },
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Log",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-29T23:54:05.108000+00:00"
+}]

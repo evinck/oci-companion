@@ -1,0 +1,197 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2024-01-16T16:33:55.916Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "MBTEST",
+  "freeform_tags": {},
+  "identifier": "ocid1.database.oc1.eu-frankfurt-1.antheljtnmvrbeaaozbnnjhwekdsfwfj6x4hdetk7a7a45vypbttmkazcu5a",
+  "identity_context": {
+    "dbHomeId": "ocid1.dbhome.oc1.eu-frankfurt-1.antheljtk3eo5hiakapflwpdcjzdui475agrgubzacoz5xvenir6a2flbjpq",
+    "dbHomeName": "OH1921",
+    "dbName": "MBTEST",
+    "dbUniqueName": "MBTEST",
+    "dbVersion": "19.21.0.0.0",
+    "dbWorkload": "OLTP",
+    "infrastructureName": "exacc-infra-ecch",
+    "vmClusterId": "ocid1.vmcluster.oc1.eu-frankfurt-1.antheljtnmvrbeaa4sobjfdqhflkrytqkjhjwf2nhmi5owb2canfvgeelkyq",
+    "vmClusterName": "ecch-cl3"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Database",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T16:33:55.928000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-2",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {},
+  "display_name": "MYOWNPDB",
+  "freeform_tags": {},
+  "identifier": "ocid1.pluggabledatabase.oc1.eu-frankfurt-1.antheljtnmvrbeaas4v6xmn7ropvnkxv7xedxcwr6cw3hskwn6vyyemnftza",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PluggableDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T16:56:49.964000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-2",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2024-01-16T15:58:41.619Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "OH1921",
+  "freeform_tags": {},
+  "identifier": "ocid1.dbhome.oc1.eu-frankfurt-1.antheljtk3eo5hiakapflwpdcjzdui475agrgubzacoz5xvenir6a2flbjpq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DbHome",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T15:58:41.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {},
+  "display_name": "SA_1654855111210",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljtwzgd4sjzk4qydp7v6iodc7sgnz73g4llv2hjttwqqawcxxcd57da",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:58:31.214000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {},
+  "display_name": "UA_1654856419846",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljtpdownv5vcefocwhizx2lqbphh5h2k56kf6hvonn5fclscllsz5xq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:20:19.850000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2024-01-11T13:33:38.029Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "ecch-cl3",
+  "freeform_tags": {},
+  "identifier": "ocid1.vmcluster.oc1.eu-frankfurt-1.antheljtnmvrbeaa4sobjfdqhflkrytqkjhjwf2nhmi5owb2canfvgeelkyq",
+  "identity_context": {
+    "cpuCoreCount": 0,
+    "exaStorageSizeTb": 20.0,
+    "exadataInfrastructureId": "ocid1.exadatainfrastructure.oc1.eu-frankfurt-1.abtheljtrl4efvwy23mvuq7o5z6pvrj35r6rpe2ftsijy6bequst3biv5vuq",
+    "exadataInfrastructureName": "exacc-infra-ecch",
+    "giVersion": "19.20.0.0.0",
+    "licenseType": "BRING_YOUR_OWN_LICENSE",
+    "nodeCount": 1,
+    "shape": "EXACC_X8M_ELASTIC"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "VmCluster",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-11T13:33:38.138000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {},
+  "display_name": "SA_1654913638579",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljrkcnwrsvpvuaanc3aiuyjey7czppcn6q3zxoc5j5ogodipdgqa3ga",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:13:58.583000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {},
+  "display_name": "UA_1654907680190",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljt3eeqnrgyf6wuviasqi756oxm42wtpu2koxw432bc3rc3agii7eka",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:34:40.217000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa2wilzqatiwtbgo6r4ucaqlh7zznwuv4ey3j3d57wowmqanxkzuhq",
+  "defined_tags": {},
+  "display_name": "UA_1658563356571",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljtsmb7md56xu4rmpjtihwupboy2zhi3depruxv4xna65leuzpb65oa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:02:36.588000+00:00"
+}]

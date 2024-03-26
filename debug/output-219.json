@@ -1,0 +1,151 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "SA_1654855142430",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljtns2o5izj576mdd52mcbqitttbakwoygawns2ux6nf27hsm2p323a",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:59:02.436000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "UA_1654856440542",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljsrjcj7fqsynndiwkzcimautmdg6cb6zvbrffjq3zemh7xpzihg67a",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:20:40.551000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "ebsv1228a-single-net1",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaakwul2ewttvdpoof6yvc755nnefgwd5jywjzsnmiocb4q",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-27T17:42:16.769000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {
+    "osc-emea-tagging": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/pascal.labrevois@oracle.com"
+    }
+  },
+  "display_name": "oscccmtls_20190705a",
+  "freeform_tags": {},
+  "identifier": "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaasgc2w6sonrs36xya67jaeqojhkazcnsbiezjn3ladl7umj3jd43q",
+  "identity_context": {},
+  "lifecycle_state": "Deleted",
+  "resource_type": "Image",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-07-05T14:32:41.438000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "vcn_utils",
+  "freeform_tags": {
+    "created-by": ""
+  },
+  "identifier": "ocid1.dnsresolver.oc1.eu-frankfurt-1.amaaaaaanaooqhqav2a3fjbzuagx52ww4ywvuenti3wjdyv75efhm23bpnhq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsResolver",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-08-20T20:30:32.608000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": null,
+  "freeform_tags": {
+    "created-by": ""
+  },
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaalic2qegjjythupxe2ha4tprrofxrtrqbo23bovqwnvlvl5wbszfq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-09-23T23:38:00.835000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": null,
+  "freeform_tags": {
+    "created-by": ""
+  },
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaarfrfkfb7raasimgiiowid26yxxwjkefvebiuedyag6p7uddvgcba",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-09-22T06:27:24.877000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "SA_1654913686827",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljtzr4nqi5czcnec6wkfvrh3ggkroxklrysgmavkfwmyryeair2gcjq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:14:46.836000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "UA_1654907700311",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljrldg7jf2rcjvs6pe6rs33pnc4gyno3stm25a75dj6tdrvfms65ygq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:35:00.315000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa5k5kbfvxhpqp5armgrawdlneuiwaewffsblss4lhtomk5m4omu2q",
+  "defined_tags": {},
+  "display_name": "UA_1658563421694",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljtyk4c27ih3h7k4siksekaiqrxkkittva66e4ozipcni27ubn2h6fa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:03:41.699000+00:00"
+}]

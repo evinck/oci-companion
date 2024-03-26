@@ -1,0 +1,392 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "Listener",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.uk-london-1.amaaaaaanmvrbeaaulb7ukpailmlzzhjvdgwgsvympk35adud3riruqgiq4q",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-22T17:37:44.599000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "Listener",
+  "freeform_tags": {},
+  "identifier": "ocid1.privateip.oc1.uk-london-1.abwgiljtjabuprrwypb7ddikbfifdfmcgdoxyuccor2gzqyttjk3rarenzma",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PrivateIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:42:19.928000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-2",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "Listener",
+  "freeform_tags": {},
+  "identifier": "ocid1.vnic.oc1.uk-london-1.abwgiljtkyngt6fqyiq3jq76ltp4ixhzwzzyeoq4jnbgsd2u5lduif5eoveq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vnic",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:42:19.928000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "ReverseConnectionIp",
+  "freeform_tags": {},
+  "identifier": "ocid1.privateip.oc1.uk-london-1.aaaaaaaas7esvff5wstjaaifaacmkwfsnhnchbzxnt2txq3g3saayhy3lyxa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PrivateIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T12:03:35.516000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "TVP-Core-Utils",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.uk-london-1.amaaaaaanmvrbeaajdhi6wj4rqmk32f57nwtesa2dl5o3j5phh5rd45moksa",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:53:47.318000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:57:44.071Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "last_start": "2024-02-12 07:02 UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Core_inf",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.uk-london-1.anwgiljrnmvrbeacoc7qp3kyhjjr532s3cuozu4pt4wx2j3ez7euerw6z25a",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:57:44.553000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "TVP-Core_inf",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.uk-london-1.amaaaaaanmvrbeaa6dvd3yip7uezr65abyeqs3dmeoqsy7cb346e26fatkxa",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T12:01:04.988000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:57:44.196Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Core_inf",
+  "freeform_tags": {},
+  "identifier": "ocid1.privateip.oc1.uk-london-1.abwgiljr36nql3rco24xclevdsxmuo4uz5w5acl5bq2yehj5mvwatltt6s4a",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PrivateIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:57:48.498000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:57:44.196Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Core_inf",
+  "freeform_tags": {},
+  "identifier": "ocid1.vnic.oc1.uk-london-1.abwgiljr3wyrzduk6fmqaoj6iu2v66a5xwv762e4tdxive7srfoi6zes3nua",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vnic",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:57:48.498000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:57:44.071Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Core_inf (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.uk-london-1.abwgiljrcuczrrbxreww5hrmap4mfxkfo3dg6ou4vqneagvst4cxh7vq7l7q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:57:47.785000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:36:18.204Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf-Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.uk-london-1.aaaaaaaaowchti6smpqcpltdrwu66amb3giey6g2nxatec3cksb4fcpnolka",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:36:18.302000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T13:44:24.924Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "consolehistory20240119134424",
+  "freeform_tags": {},
+  "identifier": "ocid1.consolehistory.oc1.uk-london-1.anwgiljrnmvrbeaci4e44a336d7noggzctckrekvkzdyxn3wsuczrj2ja3oa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "ConsoleHistory",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T13:44:24.956000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "ocid1.bastion.oc1.uk-london-1.amaaaaaanmvrbeaawdtr462kodllejifzzpweoj66hxwxrtfaicpvcq23nna",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.uk-london-1.amaaaaaanmvrbeaazxrzgojjtz6u5bw67ipx7rbitu4p5d3lzv4plcmv5diq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T15:13:27.747000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-2",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "ocid1.bastion.oc1.uk-london-1.amaaaaaanmvrbeaawdtr462kodllejifzzpweoj66hxwxrtfaicpvcq23nna",
+  "freeform_tags": {},
+  "identifier": "ocid1.privateip.oc1.uk-london-1.abwgiljtkx6oc7qck3lyqg676tqoy6smcesb5eh6zzcmmuuwna2ncljg4srq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PrivateIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T12:03:08.995000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-2",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {},
+  "display_name": "ocid1.bastion.oc1.uk-london-1.amaaaaaanmvrbeaawdtr462kodllejifzzpweoj66hxwxrtfaicpvcq23nna",
+  "freeform_tags": {},
+  "identifier": "ocid1.vnic.oc1.uk-london-1.abwgiljto755jl6fojgxthnxnvbjeabmbdt4ovhtvoqez35x3py5aunncpsa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vnic",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T12:03:08.995000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-16T14:40:06.799Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "remote-test-subnet",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.uk-london-1.aaaaaaaai3odia2hfryfxvqkco4ggrimhcvt2hrsuzuuuda57hehfhqfvxnq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T14:40:06.876000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-16T14:40:06.799Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "remotetestsubne.tvpvcn.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaaalmtkmjzytrtitmsfjh6tkkewpr6iqalhnxnnkqzfwedlky4ybnq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T14:40:07.733000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-16T14:42:35.094Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "test-remote-access",
+  "freeform_tags": {},
+  "identifier": "ocid1.privateip.oc1.uk-london-1.abwgiljr6cwlk64iynhebyfxgu7h6ztb5lw3ed2siqlbms7o4pmpjekwbk2a",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PrivateIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T14:42:39.832000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-16T14:42:35.094Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "test-remote-access",
+  "freeform_tags": {},
+  "identifier": "ocid1.vnic.oc1.uk-london-1.abwgiljrbkdddsmrug7kl7t5xnqew2njriyt3onfku4pydbj3cqh36fsf5uq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vnic",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T14:42:39.832000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:36:18.204Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "tvpinfcore.tvpvcn.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaaewqkjwfhzcub4lyu7k7x327ynn22yliu42ocxdw4quyyxwsslnua",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:36:19.510000+00:00"
+}]

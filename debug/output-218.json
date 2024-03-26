@@ -1,0 +1,315 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "0.10.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaa5blr7jllxebrz6pa6msxf7uxt6lunzlden5ifl7hcwtychv2bgba",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:04.968000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default DHCP Options for emcc-net-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaagimei576pmlqzeufzquz6b7m6xgvp74udjh6yj7kvagn6mt7lkmq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DHCPOptions",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:03.535000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Route Table for emcc-net-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaagqisecjedqg5dpp5q5ukyj4fn3m65l5hgesfximmz3qbfnpdf7aq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:03.294000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Security List for emcc-net-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaa6cjupascohhvwldcpa3tmux6cdi4ifnqodvfgg4u53dclptypc2q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:03.294000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "SA_1654855144257",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljt5qhzmiq72wm4kuhu7bqh5g535idjyeemwx5mbuifh5j65kleazta",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:59:04.260000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "UA_1654856439675",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljrisv4jnkfanktg2tmridtvlggiq45dddzekg6gkkuzuem3eqcv4zq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:20:39.680000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:04.176Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emcc Internet Gateway",
+  "freeform_tags": {},
+  "identifier": "ocid1.internetgateway.oc1.eu-frankfurt-1.aaaaaaaatpteh6vj26xqyorlnecdzdkzffup43f7meyaxahi6s53jyod4sxq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "InternetGateway",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:05.238000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:06.160Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emcc Route Table",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaacjsvsr5fprwx33zlzccjut4ckkypwzfhnorx6rynqavwto6aepha",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:06.205000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "emcc-hol-s01-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa7yv2nmbqnxax5pxhndraf3deb32xewts4xmwqdznootq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-17T12:19:59.053000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "emcc-hol-s01-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaayevfo7e5fwuc3hwbvjnv7ttxvc6luvvhhtyxktfj4e2a",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-05-05T12:43:17.026000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emcc-net-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsresolver.oc1.eu-frankfurt-1.amaaaaaanmvrbeaaqmbhem7sq4oylumpa4rx3hadvlmbinfz2ty7cngnl4nq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsResolver",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:04.271000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emcc-net-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsview.oc1.eu-frankfurt-1.aaaaaaaaqa4zejj7eonoi5xpsqynmkxysxbwgnj4s7ocv3wadmwdfwwprr7a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsView",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:04.270000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2021-12-14T16:01:02.967Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "emcc-net-2021-12-14-160101",
+  "freeform_tags": {},
+  "identifier": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaanmvrbeaaq5igx22oj2crme2empgbinwlc32c2vhglrcdo7ws2y7q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vcn",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-14T16:01:03.294000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "SA_1654913683555",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljtthpkpamoybsrwgk4ixl2phkznnk7d52ay3ect4yovc3lijyhaqaa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:14:43.574000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "UA_1654907707172",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljtigake52u4x77yst4bwnsqqexq3zjt3aolzwsjdetzhausdbspssq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:35:07.183000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaxn2rwv6tdfz7je5ff6vv453ddbq7ge7cge5oaoosvhl5crubbyza",
+  "defined_tags": {},
+  "display_name": "UA_1658563404859",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljt3lxgushelsgmlxwm4hz4kwhtzmea2okjalvo7af5i4vu66s7334q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:03:24.864000+00:00"
+}]

@@ -1,0 +1,341 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "SA_1654855103268",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljrdy52yptd3xuoxmjakhehalor4prv6zgjktdnkrl732ekjq24oftq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:58:23.272000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "UA_1654856392822",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljsfesoa2zqsuo2eta7av76cbariwleilhqojlfhvpjjwd44j7krnfq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:19:52.825000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "SA_1654913619244",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljtmwiczp4pte7ejv75eme2pnk2bdlvmox5qufiophxq45dhilvzcoq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:13:39.248000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "UA_1654907668205",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljtj4mbcvuogrl3ptmhhg7vnvrvmns3vl2sq4numwl3lzlyth7qvfdq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:34:28.218000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "stop_non_working_hours": "on",
+      "type": "user"
+    }
+  },
+  "display_name": "Default DHCP Options for db_workshops_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaaobr6icnlc4cs2lkkaihu6hrew35o4shlkrr7crh3m3u5dgtg65da",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DHCPOptions",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:53:02.031000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Route Table for db_workshops_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.uk-london-1.aaaaaaaa2u7wmcihb7pod42snklzrln2js2ih3w3iairrtgrywbl7odwc3oa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:53:01.952000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Security List for db_workshops_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaanatkxuhzbbm63m5o3pnhfezs3kplc52wsykyx2v74wdygbz2snja",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:53:01.952000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "UA_1658563338383",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljrck5vhuc445puvourgihylqh4j77d4ac6eyiuplfxkey3hqqebc2q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:02:18.387000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:55:39.025Z",
+      "stop_non_working_hours": "on",
+      "type": "user"
+    }
+  },
+  "display_name": "db_options_ig",
+  "freeform_tags": {},
+  "identifier": "ocid1.internetgateway.oc1.uk-london-1.aaaaaaaamlpauxgj4ds7xxo3aebtef4y77sv75i6s7hirfr5pb4rl4hzxjdq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "InternetGateway",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:55:39.034000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": "db_workshops_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsresolver.oc1.uk-london-1.amaaaaaanaooqhqa2icwr6md7ykyj2ti5lqj47g265xea3gpoy7zzhkpveaq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsResolver",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-09-03T00:51:53.568000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": "db_workshops_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsview.oc1.uk-london-1.aaaaaaaau4opf5as24ijsv7gjvppquipq5s4kam7v4tmqsx2cmwbx7numimq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsView",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-09-03T00:51:53.567000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": "db_workshops_vcn",
+  "freeform_tags": {},
+  "identifier": "ocid1.vcn.oc1.uk-london-1.aaaaaaaaojdnuon3k4gpncz46aomln3ty5yzcojf7rkahmavop2reniwxsxq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vcn",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:53:01.952000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:54:35.940Z",
+      "type": "user"
+    }
+  },
+  "display_name": "london-subnet",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.uk-london-1.aaaaaaaalmqvdtewh4vuniayk6jn7flavt5xtlhqptm64megwvgfxxi4sk2a",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:54:35.963000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:58:14.121Z",
+      "type": "user"
+    }
+  },
+  "display_name": "multitenant-demo",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.uk-london-1.aaaaaaaamzgwx72f6xjjcddmgmo3sa3oijlwgspd42g5pnfixnrtejyricpa",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-05T12:58:14.238000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "multitenant-demo",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.uk-london-1.amaaaaaanmvrbeaavgx6lklurklzfpvgfkg3c72lzuuxtbgucent4f4bwx4a",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-17T10:37:32.893000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2020-01-21T16:37:44.179Z",
+      "type": "user"
+    }
+  },
+  "display_name": "osc-workshop-labs",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.uk-london-1.aaaaaaaaltclz2ymecj3n6h3mvwxzga32nqpy72vyjfrkppdcgikl6xparma",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-01-21T16:37:44.190000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {},
+  "display_name": "osc-workshop-labs",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.uk-london-1.amaaaaaanmvrbeaaoxo7wjrxincqbgue4xyrvfqapxizgqbvwa33gvcws2ra",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-17T10:37:24.692000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": null,
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaajjunuxzebwxce5w5k6eahfoowpb3unnkbwpf6cfkfznzjnaeqgua",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-10-06T03:34:37.989000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak3yit7rrw2ovkr6nsdalg45pyqgyzfgixsrhffsppz545d3oxqvq",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/david.williamson@oracle.com\t",
+      "date": "2019-12-05T12:53:01.949Z",
+      "type": "user"
+    }
+  },
+  "display_name": null,
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.uk-london-1.aaaaaaaaznddcu2si35jqsoaotz6u3jc6c5o43rjm2nse4kwe7ncsi3zi7rq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-10-06T18:26:55.649000+00:00"
+}]

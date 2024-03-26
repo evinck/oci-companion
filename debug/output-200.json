@@ -1,0 +1,223 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:40:18.557Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ormjob20240201114018",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.uk-london-1.amaaaaaanmvrbeaa7hl7dsdj2ycsb3vvzw45k3p7efemd7chyf3f3cw2fx7q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:40:18.799000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:22:40.368Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "soatestadb",
+  "freeform_tags": {},
+  "identifier": "ocid1.autonomousdatabase.oc1.uk-london-1.anwgiljsnmvrbeaawx6k6n6eikuoti6oswbacugjmswxwvnb2yy2v4r2n4ya",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "AutonomousDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:22:40.384000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:40:45.686Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "soatestd-fs",
+  "freeform_tags": {
+    ".splatAuthorizedTagSlug": "AQECAR+LCAAAAAAAAACN08tunDAUBmCpj4LEqpMpNgZnZtUmVaV00VRK2kU30QHM1djGF25R3j0w6SRpU2nqBULnB/vD+Ly7934ybSopvD3aeFfmm+P8i2Ysl7q9hcJ4e6sdOyafWV4Jlj0FOXCzJNnr2r2H/dDf7Xxp0tBHPvHPIx/ZSTGZVhnaWigOz1d2WXIrU7Tdwu/hepc3dZ8rbmIdZSmIsrNRXHc0GkWKizhLaErxyIUAyGsragBv75HDKusVrVJnmA68zcJASyUg/rWGlLOzlbeCdgfQpWZgWXYxnVQ1EQerYgUhpF3PiOrbEpMoGUSYMdGkomuiOe65U0CKHk8YbPesCvGRtWwHaxkEAfrQgm62rRPZ9FEebNtUtk/kBYjIcevQ+YEKzsoWbJXemdLZTA7ipJnnPVfh2IUUOuKkMLJVSWGhZcXoSkszhWfaqDEkVM5Yj7XrXsy7IxnRfRDc/bi9fLGFzzb6t82Ctk6dpM3KJDNpuqpkNW0MlRUfcFrnWOC4UryjM3Gpiua+rUF2y800wFta8CftP/709eldY3OTdHbMrZlxkeiWVMVMXQm0BVyFGGRfDKa3Q1K3GobJyfLV+cPPBxAHmJwF+CxAtwjtSbAn0TY+j38F3sPGu+Gu+K6lYtpW7NAuq/arkeKmmtmVuJjsWvbwBm/Wb6vMJ2dLqZcwW99do7fzvw+WsU7/1KQ3k7HsH817JSzTAvhL8vAI5SjTn/8DAAA="
+  },
+  "identifier": "ocid1.filesystem.oc1.uk_london_1.aaaaaaaaaagrspnbnruhellqojxwiotvnmwwy33omrxw4ljrfvqwiljr",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "FileSystem",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:40:45.968000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:40:17.434Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "soatestdept",
+  "freeform_tags": {
+    "marketplace-listing-id": "74792101"
+  },
+  "identifier": "ocid1.ormstack.oc1.uk-london-1.amaaaaaanmvrbeaajuaypow7rk5bxs4oicszj27dbpchgmco74edtrt6jv4q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OrmStack",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:40:17.590000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:40:45.929Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "soatestdept-block-0",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.uk-london-1.abwgiljreieva2ex4d6vvnomfhb6bpyuacvdwezjt7rddj4yjgfnfdn3drlq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:40:45.947000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:41:11.448Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "last_start": "2024-02-12 07:02 UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "soatestdept-soa-0",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.uk-london-1.anwgiljrnmvrbeacdgnu62k4mvb7dcdk4rffyizaiwyexqvmj3bl6dyoq4qa",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:41:12.273000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:41:11.448Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "soatestdept-soa-0 (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.uk-london-1.abwgiljr3dlrb2or73tolfudjpr7sys6djtqubmhzwb2th3rd7k6fkubwaka",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:41:17.045000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:15:10.047Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "last_start": "2024-02-12 07:02 UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "testbastion",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.uk-london-1.anwgiljrnmvrbeaciamo2ltwcrviqxxj4si2rcpesqswyl2b64zla4pdlemq",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:15:10.547000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaatupyajg3jmfqtqccxuqso2dk2its2oxsknurgoqnxfq7f4ba4gsq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2024-02-01T11:15:10.047Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "testbastion (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.uk-london-1.abwgiljraatpvbzyqqtnihip262634pc4djhvy3igymi3dekxn5xqglbi6bq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-02-01T11:15:12.466000+00:00"
+}]

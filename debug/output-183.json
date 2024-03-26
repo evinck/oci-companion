@@ -1,0 +1,2068 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-29T01:44:43.321Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "okit-stack-20230000-024424",
+  "freeform_tags": {
+    "okit_model_id": "okit-model-6b50c30c-4d91-4e9f-92c6-6da49037649b",
+    "okit_version": "0.45.0"
+  },
+  "identifier": "ocid1.ormstack.oc1.eu-frankfurt-1.amaaaaaanmvrbeaak3w5ijdvzs3pyhstxczjrfrauh3ncshvky5cskc5nn6q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OrmStack",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-29T01:44:43.658000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-29T01:44:44.075Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "plan-job-20230129014441",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaaeh5s53el3u27aesviwsyva2o6ylnqwbcj6l64zikysca",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-29T01:44:44.214000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:47:18.350Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Networks",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaazpek7cyy65tbndyfaxkms3lg4cqhmpknyv2rokeeen4275tvwhdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:47:18.626000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:28.819Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sources",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaisbjencoulromrbter7kgmdmhxbze47l63is6ma2evmzmcktgmwa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:28.901000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:42:56.253Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Targets",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaac2qkmpetklngcawx274bvzxpfak2mhzejewznzto4rqq27uztgxq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:42:56.337000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaiyfxpq6i25dt66vhjyapmyjwkgbtslsmqj54ac4rfqb5m744fvkq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/frederic.michiara@oracle.com",
+      "CreatedOn": "2023-01-26T11:41:29.245Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDM",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaavxqicqpctmygpdrqt2s7bnirbt3nigvte7ghczdbognbvdpjgf4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-26T11:41:29.287000+00:00"
+}]

@@ -1,0 +1,1079 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {},
+  "display_name": "SA_1654854949166",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljr5kpk27ewi3nlgxicoqvt4mcfzicfz3aratb2r5z3avmyxv6ml4yq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:55:49.170000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {},
+  "display_name": "UA_1654856249902",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljs7pewl3msmheq6tizaqlgqsiu7zkupl675odmx24m5ypjxzltliga",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:17:29.906000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {},
+  "display_name": "SA_1654913411302",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljskwx4reifno4p3e3fedjjnb2hw3ofyu2cvlnrqbih267ddagjrd6q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:10:11.310000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {},
+  "display_name": "UA_1654907491190",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljsyyxvi2i7ol77wtxeerncodnmz3hzenx3uyccjhqg4wmqsdcu4pea",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:31:31.200000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {},
+  "display_name": "UA_1658563213199",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljt67agbwwux6t27wkt4tln44lghdvkzns7tgvt7mjhfcf4uxc5l3xq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:00:13.204000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2021-12-27T12:15:32.269Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "BlockChainTables",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaawxvcrsbufsygdkfimab4r75mrzcu2x4ins4b2yc7iraypwpqvaia",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-12-27T12:15:32.409000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaamnr7upv2zrhlbeu4iinp2ag43z4nofmkpustojv6c7to2h5rte2a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/ghassan.salem@oracle.com",
+      "CreatedOn": "2022-01-10T16:17:48.691Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Sharding",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaalqidcwtx2qr2f5odt7j54tbgtqoeve5doxzvmjlh4pswtbkxyswq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-01-10T16:17:48.859000+00:00"
+}]

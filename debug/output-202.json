@@ -1,0 +1,51 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak4wqnvtlxm3etwabi5nfatzuposxa4zfljzlll7whxno66jtgx5q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mike.tang@oracle.com",
+      "CreatedOn": "2023-10-17T09:52:21.024Z"
+    },
+    "osc": {
+      "automatic_shutdown": "18:00_UTC",
+      "automatic_startup": "09:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "MTATP01",
+  "freeform_tags": {
+    "ADMIN_PWD": "Welcome123###"
+  },
+  "identifier": "ocid1.autonomousdatabase.oc1.uk-london-1.anwgiljrnmvrbeaa2zv3v34evygbmnpcw2s2cxh5enbofykie7kv2m4iuqea",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "AutonomousDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-17T09:52:21.051000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaak4wqnvtlxm3etwabi5nfatzuposxa4zfljzlll7whxno66jtgx5q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mike.tang@oracle.com",
+      "CreatedOn": "2023-11-03T15:16:54.619Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "testbucket",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.uk-london-1.aaaaaaaaf473ostbqizuy6gxg2a2c3rwaocbgilksv7hnnvmff56uxgu562q",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-11-03T15:16:54.636000+00:00"
+}]

@@ -1,0 +1,111 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/eric.vinck@oracle.com\t",
+      "date": "2019-11-04T09:56:21.716Z",
+      "type": "user"
+    }
+  },
+  "display_name": "0.10.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaabu4yxyfoswvpoqyg6eboj5qkoopkow5qzzzud244kjodrlkf3zxa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-09-23T23:37:26.842000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {},
+  "display_name": "SA_1654855046564",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljr2mb677yy6ugtfuyt3fpmprlejku6zi4btsri46vzhazc5cidlbcq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:57:26.567000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {},
+  "display_name": "UA_1654856368826",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljrou6kzmm6n3fc7u34qbyn7ptbxi5dazctvmmxcaxolwbfnmpux4ma",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:19:28.830000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/eric.vinck@oracle.com\t",
+      "date": "2019-11-04T09:56:21.716Z",
+      "type": "user"
+    }
+  },
+  "display_name": null,
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaauq4psig6odlq53yqcdkjxkqx7hmvsttumx7jdn4fp4s3jzybzm7q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-09-22T14:52:42.228000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {},
+  "display_name": "SA_1654913557237",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljtl5dziguayca5ewuvnpnxgqga62fxsj4ruichd62kgiqlmmfn3dxq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:12:37.241000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {},
+  "display_name": "UA_1654907602770",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljthyd5vzz5fuh5twa6mn4jqbwamo74ltt72kstv5pbwmc775max2oq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:33:22.791000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaabcjcfvti334rwkw4uebev2wjvx3hqyatnuv3nz2xovazmwtufvka",
+  "defined_tags": {},
+  "display_name": "UA_1658563394815",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljrxo7vig2gkul5yqectvg3jirqywqn4u4ybsdejqvit5z2qtphyqsa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:03:14.820000+00:00"
+}]

@@ -1,0 +1,73 @@
+[{
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaahhuqejyiylv2qwgp6kagblxw52prqfkrwxld4eouy2lfucohbxoq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/christophe.lesbats@oracle.com",
+      "CreatedOn": "2023-07-18T15:15:17.343Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDLRA_ARCHIVE",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.eu-frankfurt-1.aaaaaaaa27tw2gco46jg5uysc4xnhs63ajwhaofffc4blmquerkfeucl7ssq",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-07-18T15:15:17.356000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaahhuqejyiylv2qwgp6kagblxw52prqfkrwxld4eouy2lfucohbxoq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/christophe.lesbats@oracle.com",
+      "CreatedOn": "2023-07-18T15:14:24.133Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDLRA_METADATA",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.eu-frankfurt-1.aaaaaaaaacr7a6tmd2umczwkzcmjlm76wsybemtnbxkjhnq6my4q37icqsta",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-07-18T15:14:24.142000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaahhuqejyiylv2qwgp6kagblxw52prqfkrwxld4eouy2lfucohbxoq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/christophe.lesbats@oracle.com",
+      "CreatedOn": "2023-07-18T15:14:06.055Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ZDLRA_STD",
+  "freeform_tags": {},
+  "identifier": "ocid1.bucket.oc1.eu-frankfurt-1.aaaaaaaasecdp3wthylmbbi75ghe4awvlf4erwrzlc6uh6p3ikkoxbyjsrya",
+  "identity_context": {},
+  "lifecycle_state": "active",
+  "resource_type": "Bucket",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-07-18T15:14:06.066000+00:00"
+}]

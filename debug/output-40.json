@@ -1,0 +1,1058 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-16T14:42:34.962Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "last_start": "2024-02-12 07:02 UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "test-remote-access",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.uk-london-1.anwgiljrnmvrbeacbbaeqxglqmwe4vk3ihwrxjbei22wors2hivhnswbz4cq",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T14:42:35.432000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-16T14:42:34.962Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "test-remote-access (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.uk-london-1.abwgiljrbcvow2orwozloicbkk56gsj2xhzqnpr5d7gie4rx2dsukl3n5ypq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-16T14:42:38.954000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2024-01-19T11:48:55.182Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Inf_Core",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaw25w6o5hmidrmafyi5i5lz4bzsrfhfi65memqmwzmpkgnu6ry24q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2024-01-19T11:48:55.256000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaorag52bugyseeu4j3f62b7s3vqqvvqc6c342rcnlqbrn6ydd7n2q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2023-10-24T14:14:02.729Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "TVP-Network",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa3gvqbjlnyxg6zk46b2imm6bdn6oglrefm53q6g4j5g2udzue6cda",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-10-24T14:14:02.795000+00:00"
+}]

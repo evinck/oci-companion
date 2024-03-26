@@ -1,0 +1,199 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2021-09-06T09:59:26.015Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "ebshol_compartment.Kvgs993J",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaft2vfq5y6m7mnjg5kqhejgbq75tj6hgwqg3tjktg72iar3t426na",
+  "identity_context": {},
+  "lifecycle_state": "DELETED",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-09-06T09:59:26.625000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2021-09-06T12:21:52.033Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "ebshol_compartment.vkNraLOL",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa6zu6ucxwsqcw4dl566d2htm2kzebiszupewkz6fotwu7kya5n6zq",
+  "identity_context": {},
+  "lifecycle_state": "DELETED",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-09-06T12:21:52.578000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2021-09-06T09:59:26.015Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "ebshol_compartment.Kvgs993J",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaaft2vfq5y6m7mnjg5kqhejgbq75tj6hgwqg3tjktg72iar3t426na",
+  "identity_context": {},
+  "lifecycle_state": "DELETED",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-09-06T09:59:26.625000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/mark.mundy@oracle.com",
+      "CreatedOn": "2021-09-06T12:21:52.033Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "ebshol_compartment.vkNraLOL",
+  "freeform_tags": {},
+  "identifier": "ocid1.compartment.oc1..aaaaaaaa6zu6ucxwsqcw4dl566d2htm2kzebiszupewkz6fotwu7kya5n6zq",
+  "identity_context": {},
+  "lifecycle_state": "DELETED",
+  "resource_type": "Compartment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-09-06T12:21:52.578000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "SA_1654855108967",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljtdnengpapa5sedt6532hvhbgvmsc7ns22slalo35jsrrqh2zzmo4q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:58:28.970000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "UA_1654856417146",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljtqs6ox4cwo425ios7x34o5hp4vt33urap5sdq3hyotitremctdesq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:20:17.151000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "SA_1654913670927",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljrk72hh3uayzw7wbbbyasr4bqdw5m2iahtxsqjvc3o6bi4lolhkfva",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:14:30.934000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "UA_1654907715376",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljt6nnkzej25vixhsqps3zbu2fgf3wxzjqogswlcqgnyivaqzypj6nq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:35:15.390000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "Oracle E-Business Suite Cloud Manager Stack for Demos",
+  "freeform_tags": {
+    "marketplace-listing-id": "83273060"
+  },
+  "identifier": "ocid1.ormstack.oc1.uk-london-1.aaaaaaaaooqxpn6jdzm44cftezqhpvmrnzhb6oa4tc4hndcokaistg3gyrdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OrmStack",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-09-06T12:21:28.303000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "UA_1658563365427",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljrn6pda4r7onhhm5424rdx2njlvgcpjebeqej6grmgwgbcw5aewkca",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:02:45.431000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa4cx6l7hj2vuz6dyabyojtxy35cr2oqa6lgsp7g4hio4jcyk3lbmq",
+  "defined_tags": {},
+  "display_name": "ormjob20210906122129",
+  "freeform_tags": {
+    "marketplace-listing-id": "83273060"
+  },
+  "identifier": "ocid1.ormjob.oc1.uk-london-1.aaaaaaaa5defcjcwrj5yfrwrdrym2fcqrz742lisdi4t4nrgjeyx5gshqzqq",
+  "identity_context": {},
+  "lifecycle_state": "FAILED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-09-06T12:21:29.026000+00:00"
+}]

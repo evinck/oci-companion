@@ -1,0 +1,217 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {},
+  "display_name": "SA_1654854985936",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljsgefr5rntvtxz5dytqdx4zkm5gz4fxxlsyitqk2lrucvlnjugvlva",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:56:25.941000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {},
+  "display_name": "UA_1654856287447",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljsnolir4c55wm4ag37qt2pqn3wj6fwzrrwccgfpj67exaenbyq3kuq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:18:07.451000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2023-02-22T10:30:48.976Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "07:00_UTC",
+      "last_start": "2023-02-22 17:02 UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bastion",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.eu-frankfurt-1.antheljsnmvrbeacqxgt7onijjprpro3dqnnvkzfelgphfwqvjjq7hrfpela",
+  "identity_context": {},
+  "lifecycle_state": "RUNNING",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-02-22T10:30:49.686000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2023-02-22T10:30:48.976Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bastion (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljshlkez2gtpnebzuuhrlf65hfwbtpy3j4plkpod6rz6zwtujrxpzbq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-02-22T10:30:53.643000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2023-11-09T08:18:18.378Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "last_start": "2024-02-12 07:01 UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bastion-backup",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.eu-frankfurt-1.antheljsnmvrbeacfks3soch5yhuwb4kezcnspg43fxhnuinlemviae2rraa",
+  "identity_context": {},
+  "lifecycle_state": "STOPPED",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-11-09T08:18:19.214000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2023-11-09T08:18:18.378Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bastion-backup (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljsgg3fyhaquphifh5bcazxfpkhckel3roydyt6rbnf4w5fjd63exia",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-11-09T08:18:21.928000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {},
+  "display_name": "SA_1654913442817",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljsa6k2rjdl4fvjhyq7ahh72nz4uvksavaj2r6traxesfkocigm67xq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:10:42.821000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {},
+  "display_name": "UA_1654907533090",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljs4qyjroiypjssa4cuz3jykrthgafpmr6xd5j4nuag3cii2thdbsoq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:32:13.095000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:ME-JEDDAH-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2022-05-31T09:56:10.497Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bastion",
+  "freeform_tags": {},
+  "identifier": "ocid1.instance.oc1.me-jeddah-1.anvgkljrnmvrbeacclz6thk3aihhxs5q4tm35owcs5g4zizt5feh2jzkvvea",
+  "identity_context": {},
+  "lifecycle_state": "RUNNING",
+  "resource_type": "Instance",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-05-31T09:56:11.145000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:ME-JEDDAH-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2022-05-31T09:56:10.497Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "bastion (Boot Volume)",
+  "freeform_tags": {},
+  "identifier": "ocid1.bootvolume.oc1.me-jeddah-1.abvgkljrdbxfsfotncb5dggmpi43hpzokm3v7t563zo2lcf6q7zo5y3bxudq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "BootVolume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-05-31T09:56:14.934000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaan6hxo57wmi4xo6qavba2s7ptmw4ze4p74mljekp3h3x4zgrnsila",
+  "defined_tags": {},
+  "display_name": "UA_1658563258642",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljthqho7ecbukx6thk7z6rbta62nxbr4cy5yvrdoh3xoutbw2aw4rva",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:00:58.646000+00:00"
+}]

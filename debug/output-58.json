@@ -1,0 +1,79 @@
+[{
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaawfiluyu2ed5rwzde3fvfapq2zeibaf22rk7kjv2na4gey2na7x7q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2022-11-28T14:46:45.893Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ebs-fs01-ad1",
+  "freeform_tags": {
+    ".splatAuthorizedTagSlug": "AQECAR+LCAAAAAAAAACN08tunDAUBmCpj4LEqjNTbAzMsGqTqlK6aCpl2kU30QHM1djGF25R3r0w6STpRZp6gdD5wf442G8enO9U6UpwJ0Yb50Z/sYx9UpTmQrVHKLQTG2XpOflI84rT7CnIgeklyV7XHhzs+u7h4Aqd+i5yibsPXGQmSUVaZWhnoDg9X5llyZ1I0W4Hv4btbd7UfS6ZDlWQpcDLzgRh3UXByFNchFkSpREeGecAeW14DeDEDjmtsl7RKrWaKs/ZLAy0VDzi3ipIGd2uvBV0OIGuFQVDs6vpoqoJGBgZSvAh7XpKZN+WmATJwP2M8iblXRPMYc+sBFL0eMJgumeVvz+zlnbQloLnoXcSdApsxyBRtBeVfi9Owl0q2if4wkTk3EC0P4HBGtGCqdJ7XVqTiYFflLO8Z9IfOz+CjljBtWhlUhhoaTHa0kSZxHPUyNEnkZixGmvbvcgPZziKYs+7/3a8frH5z7boT5sBZay8SJulTmbSdFVJ66jRkajYgNM6xxyHlWRdNBObymDu2xpEt9xMA/xN836n/cf/vr3cNTo3SWfG3OgZF4lqSVXMkS0hagFXPgbRF4PuzZDUrYJhsqJ8tQvx8zbEHsZbhLZ4f0QkJmFMgt3+4P/wnMeNc8ds8VUJSZWp6OnQrNrPWvC7aqY3/Goya9nBG7xZv63SH6wphVrCbH13jTxMth7a+uiIvNhHSyfeestYp386qneTNvQfR/iGG6o4sJfk8Se/3XY5BQQAAA=="
+  },
+  "identifier": "ocid1.filesystem.oc1.eu_frankfurt_1.aaaaaaaaaaascdgtmzzgcllqojxwiotfouwwm4tbnzvwm5lsoqwtcllbmqwteaaa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "FileSystem",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-28T14:46:46.052000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-2",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaawfiluyu2ed5rwzde3fvfapq2zeibaf22rk7kjv2na4gey2na7x7q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2022-11-16T17:49:44.344Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ebs-fs01-ad2",
+  "freeform_tags": {
+    ".splatAuthorizedTagSlug": "AQECAR+LCAAAAAAAAP+N08tunDAUBmCpj4LEqjMUGwOZWbVJVSldNJUy7aKb6ADmamzjC7co716YdCbpRZp6gdD5wf442G8ene9U6UpwZ482zq3+Yhn7pCjNhWoPUGhnb5Slp+QjzStOs+cgB6aXJHtde3SwG7i7nSt0GrjIJe5V6CIzSSrSKkOegeL4fGWWJT2RIs+DX8P2Nm/qPpdMRyrMUuBlZ8Ko7uJw5CkuoiyJ0xiPjHOAvDa8BnD2Djmusl7RKrWaKt/ZLAy0VHzi3ilIGd2uvBW0O4JuFAVDs+vpoqoJGRgZSQgg7XpKZN+WmITJwIOM8iblXRPOUc+sBFL0eMJgurMquDqxlnbQloLvo3cSdArMY5Ao2otKvxdHoZeK9hm+MBE5NRBdHcFgjWjBVOmDLq3JxMAvylneMxmMXRBDR6zgWrQyKQy0tBhtaeJM4jlu5BiQWMxYjbXtXuS7ExzFe99/+Ha4ebEFZ1v8p82AMlZepM1SJzNpuqqkddzoWFRswGmdY46jSrIunolNZTj3bQ2iW26mAf6m+b/T/uN/313uGp2bpDNjbvSMi0S1pCrm2JYQt4CrAIPoi0H3ZkjqVsEwWVG+2oX4vA2xj/EWoS2KDksHyW5PiBcQ8sN3njbOPbPFVyUkVaaix0Ozaj9rwe+rmd7y68msZQdv8Gb9tkp/sKYUagmz9d018jHZ+mgboAPy9wFaOvHWX8Y6/fNRvZ+0of84wrfcUMWBvSRPPwHbcVD6BQQAAA=="
+  },
+  "identifier": "ocid1.filesystem.oc1.eu_frankfurt_1.aaaaaaaaaaawcd4wmzzgcllqojxwiotfouwwm4tbnzvwm5lsoqwtcllbmqwtgaaa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "FileSystem",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-16T17:49:44.458000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-3",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaawfiluyu2ed5rwzde3fvfapq2zeibaf22rk7kjv2na4gey2na7x7q",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/pascal.labrevois@oracle.com",
+      "CreatedOn": "2022-11-16T16:34:41.894Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ebs-fs01-ad3",
+  "freeform_tags": {
+    ".splatAuthorizedTagSlug": "AQECAR+LCAAAAAAAAP+N08tunDAUBmCpj4LEqjNTbAzMsGqTqlK6aCpl2kU30QHM1djGF25R3r0w6STpRZp6gdD5wf4wPm8enO9U6UpwJ0Yb50Z/sYx9UpTmQrVHKLQTG2XpOflI84rT7CnIgeklyV7XHhzs+u7h4Aqd+i5yibsPXGQmSUVaZWhnoDg9X5llyZ1I0W4Hv4btbd7UfS6ZDlWQpcDLzgRh3UXByFNchFkSpREeGecAeW14DeDEDjmtsl7RKrWaKs/ZLAy0VDzi3ipIGd2uvBV0OIGuFQVDs6vpoqoJGBgZSvAh7XpKZN+WmATJwP2M8iblXRPMYc+sBFL0eMJgumeVvz+zlu2gLQXPQ+8k6BTYjkGiaC8q/V6chLtUtE/whYnIeQPR/gQGa0QLpkrvdWlNJgZ+Uc7ynkl/7PwIOmIF16KVSWGgpcVoSxNlEs9RI0efRGLGaqxt9yI/nOEoij3v/tvx+sXmP9uiP20GlLHyIm2WOplJ01UlraNGR6JiA07rHHMcVpJ10UxsKoO5b2sQ3XIzDfA3zfud9h//+/byrtG5SToz5kbPuEhUS6pijmwJUQu48jGIvhh0b4akbhUMkxXlq1OIn48h9jDeIrRF4RGFsU9ignb7A/nhOY8b547Z4qsSkipT0VPTrNrPWvC7aqY3/Goya9nBG7xZv63SH6wphVrCbH13jTxMth7a+uiIvNhHsYfeestYp39q1btJG/qPFr7hhioO7CV5/AmNHhSJBQQAAA=="
+  },
+  "identifier": "ocid1.filesystem.oc1.eu_frankfurt_1.aaaaaaaaaaasaadjmzzgcllqojxwiotfouwwm4tbnzvwm5lsoqwtcllbmqwtcaaa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "FileSystem",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-16T16:34:42.096000+00:00"
+}]

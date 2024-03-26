@@ -140,7 +140,7 @@ def fillDatabase(database, compartmentId):
 
 # The main to call
 def makeJSTree(database, top_ocid):
-    json = '{{"id": "{}", "parent": "#", "text": "<b>{}</b>", "state" :{{"opened":"true"}}}},\n'.format(top_ocid, top_ocid)
+    json = '{{"id": "{}", "parent": "#", "text": "<b>{}</b>", "state" :{{"opened":true}}}},\n'.format(top_ocid, top_ocid)
     
     #json += makeJSSubTree(database, top_ocid)
     json += makeJSSubTreeSortedByType(database, top_ocid)
@@ -163,7 +163,7 @@ def makeJSSubTree(database, ocid):
             json += makeJSSubTree(database, key)
     return json
 
-# TODO
+# TODO: doesn't work for buckets 
 def guess_region_fromocid(ocid):
     region = ""
     pattern = r'\.oc1\.([^\.]*)\.'
@@ -177,6 +177,7 @@ def makeJSTreeDataItem(database, ocid):
     # TypeError: Object of type datetime is not JSON serializable
     #dataItem = database[ocid]['rawdata']
     dataItem={}
+    dataItem['node_type']="item"
     dataItem['display_name']=database[ocid]['display_name']
     dataItem['ocid']=ocid
     dataItem['url']="https://cloud.oracle.com/search?q=" + ocid + "&region=" + guess_region_fromocid(ocid)
@@ -186,7 +187,7 @@ def makeJSTreeDataItem(database, ocid):
 # IconChooser
 DefaultIcon = "images/leaf.png"
 IconChooser = {
-    "Directory" :"images/directory.svg",
+    "Directory" :"images/Directory.svg",
     "Compartment" : "images/Compartments.svg",
     "Bucket" : "images/Buckets.svg",
     "Instance" : "images/Virtual Machine.svg",
@@ -210,19 +211,27 @@ def makeJSSubTreeSortedByType(database, ocid):
 
     # Create subnodes for types
     for key,value in typesCount.items():
+        dataItem = {}
+        dataItem['node_type'] = key
+        dataItem = json.dumps(dataItem)
         icon = IconChooser['Directory']
         if  key == 'Compartment':
             # Compartments type is opened by default
-            njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "icon:":"{}", "state" :{{"opened":"true"}}}},\n'.format(ocid, key, ocid, key, value, icon)
-        else : 
-            njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "icon:":"{}"}},\n'.format(ocid, key, ocid, key, value, icon)
+            opened_state = "true"
+        else:
+            opened_state = "false"
+        
+        # njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "icon":"{}", "data":{}, "state" :{{"opened":{}}}}},\n'.format(ocid, key, ocid, key, value, icon, dataItem,opened_state)
+        njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "data":{}, "state" :{{"opened":{}}}}},\n'.format(ocid, key, ocid, key, value, dataItem,opened_state)
+        
+
 
     # Create subnodes sorted in each type
     for key in subnode_keys:
         dataItem = json.dumps(makeJSTreeDataItem(database, key))
         icon = IconChooser.get(database[key]['type'],DefaultIcon)
 
-        njson +=  '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>", "icon":"{}", "data" : {}}},\n'.format(key, ocid, database[key]['type'], database[key]['display_name'],icon,dataItem)
+        njson +=  '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>", "icon":"{}", "data" : {}}},\n'.format(key, ocid, database[key]['type'], database[key]['display_name'], icon, dataItem)
         # recursion
 
         if database[key]["type"] == 'Compartment':
@@ -276,3 +285,6 @@ json = makeJSTree(database, compartmentId)
 # the [] are there for use by javascript
 print("Writing the data.json file to {}".format(output_location))
 save2File("[" + json + "]", output_location)
+
+# exit gracefully
+exit(0)

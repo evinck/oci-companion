@@ -1,0 +1,1251 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "10.10.in-addr.arpa",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaaz654mk477ppni3lquvc65g7x3ocus5cj3jfjwdc2tr6l55htehdq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:37.054000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default DHCP Options for HOLVCN",
+  "freeform_tags": {},
+  "identifier": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaawzwstkzw454mv5g66sqy7rerzkxebemun76lenzshklghatf5kpa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DHCPOptions",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.074000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Route Table for HOLVCN",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaa6l73gtxps5doeor6mxalrkihufvgiuci7hbeooo2vqjt3r3brreq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:34.848000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Security List for HOLVCN",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaajvnmplnhvvlssizhzg6gnrgumejc2qiifhfmerpvmt3cwa7ew45q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:34.848000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL OGG PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaadiqfroxlo7jzm22276xajesxgs3orzdbre66d274ldxq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-11T14:09:21.346000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL OGG PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaan24jfjxwk4audrgmcgwg2ejavl7kxqzlct4kn3imgdia",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:25:08.869000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL OGG PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaargvqmdxnvebdqxon7kvqtv2hxi6hjmji3vd2mnrt3vna",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-11T13:53:19.185000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL OGG PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaastrkk2xwfelwfsgr44bxyllavzq5nql5rjaz37vznnaa",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-11T13:31:21.721000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaachonunpjp7d32o6souffam7up5ltv6xcgaqoivhrhntq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-29T19:23:17.718000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL Source PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa2nmvjcfngb2g4ujnbvf7syr6v4v5tn2ikwo3uutd6xoq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:25:27.104000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL Source PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaadl4iykfvr6pdud2t4e7nt5mqtgiewmopnokuzspej5sq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-11T14:09:21.346000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL Source PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaar5wiqxqmpq64qov7psqi7sxlk575wvzvypvek6ls4c5a",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-11T13:51:44.375000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "HOL Source PGSQL",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaatbabyzhgkjzo7iuwszqoraztl5w5hbrsuq4pez4pzwea",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-10-11T13:31:21.721000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsresolver.oc1.eu-frankfurt-1.amaaaaaanmvrbeaavrj56duo64dg7f5dvtdsoqhbzx6kca2w7livppghiroq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsResolver",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:36.225000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN",
+  "freeform_tags": {},
+  "identifier": "ocid1.dnsview.oc1.eu-frankfurt-1.aaaaaaaamk4sq4ywysjublpefu3apcbnnpezg6owyh53y4ooj65y7z4hueqa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsView",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:36.225000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.673Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN",
+  "freeform_tags": {},
+  "identifier": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaanmvrbeaagke4wi3lxvxw3pkqnzpa67uxn5qx5itkpxwr6bslzmjq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vcn",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:34.848000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:36.451Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_IGW",
+  "freeform_tags": {},
+  "identifier": "ocid1.internetgateway.oc1.eu-frankfurt-1.aaaaaaaaqftjsyzdi45qrlzvjwqdciufkomkwwgvyqym3zgxv45cr6ol5lra",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "InternetGateway",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:36.558000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:37.179Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_IGW",
+  "freeform_tags": {},
+  "identifier": "ocid1.natgateway.oc1.eu-frankfurt-1.aaaaaaaarohjwzfaxi4giwvyanhwnotojaepk2r374v6nrc7vp6tyfmesrkq",
+  "identity_context": {
+    "blockTraffic": false,
+    "publicIp": "150.230.150.233",
+    "vcnId": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaanmvrbeaagke4wi3lxvxw3pkqnzpa67uxn5qx5itkpxwr6bslzmjq"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "NatGateway",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:37.566000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:40.541Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_Private_RT",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaa5doenb5kojs66erdrdtawo6fnulk4vzvs4qqx72tl6v2c77lehla",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:40.629000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.938Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_Private_SL",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaara7fz653r7gsc3bzz4ei7qmpvjx4fte3wubx5pyu5ab67odepojq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.980000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:37.390Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_Private_subnet",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaayeknhzghseyfwbvx7gkisui5323gwbggya3zs2wsysqntnifkmoq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:37.459000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:39.395Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_Public_RT",
+  "freeform_tags": {},
+  "identifier": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaavcsvbopcehlj6hvqzacotpmjxxucyaayb4wmrbb4uxcirfspvw2q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:39.435000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:36.775Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_Public_SL",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaam3tzajuckimyujezn5mhbm7ez7n3mlgpdihi2nopolyatgufijuq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:36.819000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:37.390Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "HOLVCN_Public_Subnet",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaazw3ik6o7jei5hhbbcjfe6qtbx5zxhtllrtjnczwucapb3c36zava",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:39.380000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:38.758Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "IP for NAT gateway: ocid1.natgateway.oc1.eu-frankfurt-1.aaaaaaaarohjwzfaxi4giwvyanhwnotojaepk2r374v6nrc7vp6tyfmesrkq",
+  "freeform_tags": {},
+  "identifier": "ocid1.publicip.oc1.eu-frankfurt-1.aaaaaaaa7pbkcw6cwxmyo52ql4puwhzkqdix73upfchai4vt4m6yt2iuf7ca",
+  "identity_context": {},
+  "lifecycle_state": "ASSIGNED",
+  "resource_type": "PublicIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:38.882000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "OGG Micro Oracle",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaaxaaupbfke4silahkzarumpqu6e3kvaadr44mftarqlsq",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:58.905000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:09:26.913Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Oracle (Cache Manager)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsgq2kkfbz2y4ngfkkk5fho2fehcwsi37pay7zo5qpjr3p4jlsncmq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:26.925000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:09:26.943Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Oracle (Deployments)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljs57r545j2y6uusbnnbw2qoam75vb7m6bgnlonaqy72tlaiifmnqma",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:26.956000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:09:26.957Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Oracle (Swap)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljs2uetdxlu4kfg3in4kjze26ogbwfsinu4yidjzkz3eyhhmrqmwxpa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:26.968000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:09:26.866Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Oracle (Trails)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsmzslcxud5nmmqrgk45cxrhfp2be6q4min6khiwyqjqjgohspza7a",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:26.883000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:10:05.404Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Oracle Public IP",
+  "freeform_tags": {},
+  "identifier": "ocid1.publicip.oc1.eu-frankfurt-1.amaaaaaanmvrbeaabfdtylzjv3m6msoh3eaiqhmsprvyhqlfx6gymgnzyoqa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PublicIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:10:05.666000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "OGG Micro Postgres",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaanhp6aqgmwtlizsnuu7aueasaqawgqtd7sukw456jrnfa",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:01:07.903000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "OGG Micro Postgres",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaapkblcxndh6ffkkieuuncytbj5x4hafgvqvk6yq27neva",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:33:13.784000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:59:28.852Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Postgres (Cache Manager)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljs4l4v5uvizkeq4ufotkp23m4xjs222qfvqkd5dke73r45qbwoe2qq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:59:28.868000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:59:28.922Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Postgres (Deployments)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljstzip57ybw6s2wb7wzeo2j4h6jdbhmgmu3awz6bcuylelcuw7jypq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:59:28.984000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:59:28.959Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Postgres (Swap)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsikc7ulce2y23ebpqhurgcsaovewmr5wc633enpsuwo5yiystktrq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:59:28.974000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:59:28.907Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Postgres (Trails)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsapx6kkijn6ukfjua6m5te5z6wwpbvx2udf2hcqvtp3tsaesxvnuq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:59:28.921000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:00:15.856Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG Micro Postgres Public IP",
+  "freeform_tags": {},
+  "identifier": "ocid1.publicip.oc1.eu-frankfurt-1.amaaaaaanmvrbeaak65jpmcpyiwuibyaexihumzmitouqf5caw6drxs4s4qa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PublicIp",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:00:16.147000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.042Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_Micro BlockVolume (Cache Manager)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljs2uy4thaxsdzazmcsmjsz4cgocuivjeg4emqizbrugbn6rqstvk7a",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.075000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.053Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_Micro BlockVolume (Deployments)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljs2fwm7osqrewmmcjbqxqwgov4l27nwyvi2nnsf6zvudsqpd5zmogq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.064000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.017Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_Micro BlockVolume (Swap)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsb6kvwxh472yiwdknnxymchz43smfhzgssudilqtllhxz6i3rppqq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.031000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:34.985Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_Micro BlockVolume (Trails)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljs6smoqq7ykcriip7usfix3wxrrfrhmzczdh7xisnday5tp3f6spjq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.015000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.003Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_PGSQL BlockVolume (Deployments)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljszdahe5ryq2jcqesgsevmwrtdazngpj6snqs462excjhrx2jytosa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.017000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.095Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_PGSQL BlockVolume (Swap)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsilfg54wjjo7rga7nlepcxgw4njg4syavmn2muq6rgvhcprjhhjtq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.116000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:EU-FRANKFURT-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:35.074Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "OGG_PGSQL BlockVolume (Trails)",
+  "freeform_tags": {},
+  "identifier": "ocid1.volume.oc1.eu-frankfurt-1.abtheljsdhx7k6yvytds54j5stu7xgpmw4lmd6tskhljocrxoq44zhd64skq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Volume",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:35.093000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:31:50.190Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Oracle GoldenGate  \u2013 Database Migrations-Postgre",
+  "freeform_tags": {
+    "marketplace-listing-id": "96175416"
+  },
+  "identifier": "ocid1.ormstack.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa7rjf47hqaucdpzbunzcy64cpomvrczksn3kprlx4dwxa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OrmStack",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:31:50.484000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:09:09.751Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "Oracle GoldenGate  \u2013 Database Oracle",
+  "freeform_tags": {
+    "marketplace-listing-id": "96175416"
+  },
+  "identifier": "ocid1.ormstack.oc1.eu-frankfurt-1.amaaaaaanmvrbeaakc6i3a5gfc6df6pjydkp6yoex6q5ujbifjvdkpmuf6ca",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OrmStack",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:10.044000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "PE_eu-frankfurt-1_8274c5e7-31e3-43f5-8ead-1f42321fcc6a",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaasqeqgih2bgbgjqvldqins7tmncowgem327qgg4kewnna",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-07-10T08:27:31.398000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:59:17.587Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "apply-job-20221209125916",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaaxdkf3rsnuozw4zknxqnretbzobykruy2r7kraagx3k5q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:59:17.713000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:53:50.509Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "destroy-job-20221209125349",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaafo6fnk5viktwlxzvenqzwmfqfwecsmnohinpjem4qhqa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:53:50.881000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:37.390Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "holvcnprivate.holvcn.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaa7fvgzbmjqlfbrm2lvd3x6vja3v53zb77rnn5msoh7xo6uhxs6yba",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:38.366000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-11-21T18:22:37.390Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "holvcnpublc.holvcn.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.eu-frankfurt-1.aaaaaaaagfthkta5fjsguazunjgsmvfw7tbhpatcw53oo5pcy5zl4osctl2q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-11-21T18:22:40.607000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:31:50.888Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ormjob20221209103151",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaabbbgaths2trgatdko627xqpmzzoeh77ptabsl3juagzq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:31:51+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:48:19.999Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ormjob20221209104820",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa5r2ygdwxapkuakai7pgsckswvztxhsulo4p2ift5227q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:48:20.792000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T11:09:10.469Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ormjob20221209110910",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaa2zothuxqfs6bzlk6rtsjuvyb343cm2nqdfazkekjni6q",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T11:09:10.597000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/bilegt.bat.ochir@oracle.com",
+      "CreatedOn": "2022-12-09T10:55:44.981Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "plan-job-20221209125543",
+  "freeform_tags": {},
+  "identifier": "ocid1.ormjob.oc1.eu-frankfurt-1.amaaaaaanmvrbeaau7gaav4etyl5ldzg65avoyxemwzblknfgsrflz365yaa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "OrmJob",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-09T10:55:45.214000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "tf-demo04-ol7",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaamdquhf37ba6awdyqrctf2odbvgqcgxhkw3nmdmghli3q",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-09-09T07:22:25.203000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaz72xujpgqznp4ofkfpqgiqpuq6hqfk2kxbynj72vqgxwwuamagbq",
+  "defined_tags": {},
+  "display_name": "zdm-db",
+  "freeform_tags": {},
+  "identifier": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaanmvrbeaay4anfl6c5s7giekfug4zgz4ijcrpvttt67hy35edqbga",
+  "identity_context": {},
+  "lifecycle_state": "Active",
+  "resource_type": "LogAnalyticsEntity",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-12-11T21:25:33.847000+00:00"
+}]

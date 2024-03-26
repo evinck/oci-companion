@@ -1,0 +1,517 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "SA_1654855016875",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljsw3gp5q3zjw5434urpydeb5w2negd7lxa5lf7ujkzt64x66jazcxa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:56:56.880000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "UA_1654856335287",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljsabg74u5sjktolb36clnuyvdh2rgrzjw464v46dpwijhty7ytspnq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:18:55.291000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "0.10.in-addr.arpa",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.dns-zone.oc1.iad.aaaaaaaatccgzm6toa6hhqbysvgny34vxgb6qhhhc2guxpgnkbboy5c3e4kq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:32.675000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "Default DHCP Options for coherence_user1-oke vcn",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.dhcpoptions.oc1.iad.aaaaaaaag5g4yspwwdzglukqvkn7eedymj5yxzz73nxz4umrxxzt3l7tbjvq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DHCPOptions",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:29.870000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Route Table for coherence_user1-oke vcn",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.routetable.oc1.iad.aaaaaaaaau4vhjffmm67thgv65jsjs5ensm44ivz5m2w7eeng7yhad53gwfq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:29.667000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "Default Security List for coherence_user1-oke vcn",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.securitylist.oc1.iad.aaaaaaaaafhix5yqbgkcefi7zpyguk6svafz3smbx4pi442nyedojbwqrkxa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:29.667000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "SA_1654913497655",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljs2jylzhm6tza4ak2suujmhcth5kyq3igj3gu7xdfgjy7t3jhavkmq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:11:37.666000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "UA_1654907566277",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljr4rbpwfqroy44gulxfnfcf7f7pe4hh4wkdapd5h26qlnndmrbxsha",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:32:46.324000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "coherence_user1-control-plane",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.iad.aaaaaaaar3nr3ah2esmhe35624ktedvqm4r2kjhzokxhze6kacdtmdpkbffq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:33.827000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:35.225Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-control-plane",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.iad.aaaaaaaabi7iz72ax6emcm43twdc2urhudnolrnxmwn5ykqi6picctznmsuq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:36.778000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:30.854Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-internet-gateway",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.internetgateway.oc1.iad.aaaaaaaawq5g2vnx4vf6vctm73bao5ql64pxb2p2u52hsrcxl2tbwb6amcna",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "InternetGateway",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:30.922000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:32.953Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-internet-route",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.routetable.oc1.iad.aaaaaaaa2pbfurkpaiyg3k62rtjmjexdchv2y6ww4oexnbkuzyjjw26tyrxq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "RouteTable",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:32.989000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-oke vcn",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.dnsresolver.oc1.iad.amaaaaaanmvrbeaa55nawkboacwomixrsmg4zywwkmmji6vganr2bdg5jmsq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsResolver",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:31.838000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-oke vcn",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.dnsview.oc1.iad.aaaaaaaa27mqimjveswmzpwtv2dnsnjbko4vxrpjhtvihwacrcymaooitooa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "DnsView",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:31.838000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:29.414Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-oke vcn",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.vcn.oc1.iad.amaaaaaanmvrbeaazj6bhfr7uvh6yu53ivhd3fuvkziaabgwirgatvp75seq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Vcn",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:29.667000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "coherence_user1-pub-lb",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.iad.aaaaaaaa47umgkxleqgzmtmsvnzbutka73s7ecw4endc5vzk57k7f4isbnhq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:33.817000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:34.887Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-pub_lb",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.iad.aaaaaaaasyuvcdubuwot3zve7cjie4fvb5t6ror3qiqwd5m3ngcqmeq2toaq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:35.084000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:31.336Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-service-gateway",
+  "freeform_tags": {
+    "environment": "dev"
+  },
+  "identifier": "ocid1.servicegateway.oc1.iad.aaaaaaaamugl6rhmdbne46h74s6bzi3mk5zgzkcb3rvnv53u2qfrmmp3exfa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "ServiceGateway",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:32.230000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "coherence_user1-workers",
+  "freeform_tags": {},
+  "identifier": "ocid1.securitylist.oc1.iad.aaaaaaaakatqpaubpoiz4iumqe7zxj2najzhaen33sed47sz4dgfn5r3i3tq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "SecurityList",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:34.169000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:35.283Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "coherence_user1-workers",
+  "freeform_tags": {},
+  "identifier": "ocid1.subnet.oc1.iad.aaaaaaaax5na4qlbwjzpmcwzrlwvk2wvlhisxjprzsorkcrpqfzrriu5jrsq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Subnet",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:35.681000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:35.225Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "cp.oke.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.iad.aaaaaaaazlia2wsv3q6logb4br2ysmnbvcfp5qzrvlkc34nii2oybgtnw64q",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:40.319000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:34.887Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "publb.oke.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.iad.aaaaaaaaubbd3wxzrkofiwfnfqaiwyrzgdrsbcsmkfp3u6gxumaf3gmx5faa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:35.878000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/arif.saddiq@oracle.com",
+      "CreatedOn": "2022-03-16T13:14:35.283Z"
+    },
+    "osc": {
+      "automatic_shutdown": "off",
+      "automatic_startup": "off",
+      "type": "user"
+    }
+  },
+  "display_name": "workers.oke.oraclevcn.com",
+  "freeform_tags": {},
+  "identifier": "ocid1.dns-zone.oc1.iad.aaaaaaaai7zpf2kbypeetnss2i4p5i3rer44h7r6q6nck64mruaignmxjkma",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "CustomerDnsZone",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-03-16T13:14:38.827000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaybssn7yx7zs5glimrure3u3nwuvby53oi3ctrvwkdahpra4gwssa",
+  "defined_tags": {},
+  "display_name": "UA_1658563280094",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljtz5rurzbjrfjtt7avy367mi5ckjs2uo2v7zg64jpnbh7fo4srbajq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:01:20.108000+00:00"
+}]

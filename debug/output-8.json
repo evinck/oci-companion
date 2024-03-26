@@ -1,0 +1,347 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/rob.watson@oracle.com",
+      "CreatedOn": "2021-03-18T09:08:29.474Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "ROBNFS2",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.eu-frankfurt-1.abtheljtyrysxwqhkwadu4j4j7v6vtzcwvqtzjxcz7gjhv2jintskrwb57ka",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-03-18T09:08:29.482000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {},
+  "display_name": "SA_1654855072986",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljsbfls4vk7dpu336tdubrnqifd7xqizza65olzbz4ejuxbgqsrk7fq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:57:52.990000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {},
+  "display_name": "UA_1654856385555",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljriitea5vonvhn5mztillhlysd5ifufy7jpnq5v3bjz3z3t74ewlha",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:19:45.571000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2023-06-19T14:23:53.699Z"
+    },
+    "osc": {
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "VPC user= exaccdemo_vpc , password: W3!come1. llgz06ingest-scan:1521/oscdb1:dedicated"
+    }
+  },
+  "display_name": "ZDLRA-X8-LLG-llgz06-exaccdemo_vpc",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.eu-frankfurt-1.antheljrnmvrbeaabbhgwhitz5o6iuw3q677r5gwftrrvyvdv3qpkhodxamq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-06-19T14:23:53.710000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2022-09-28T14:12:11.819Z"
+    },
+    "osc": {
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "exaccdemo_vpc/exaCCdemo_welcome1"
+    }
+  },
+  "display_name": "ZDLRA-X9-LLG-llgz07-exaccdemo_vpc",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.eu-frankfurt-1.antheljrnmvrbeaalbyeucaje7vb35rivfkrcdv3ark7w3hfmkhariglx6ra",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-09-28T14:12:11.833000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-01-23T14:58:21.735Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user",
+      "usage": "ecce autonomous backups created after rebuild Jan 2023"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "ecce-adb",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.eu-frankfurt-1.antheljrnmvrbeaabjbo5g6zljzorshutqxbnl4xaxgpeaovbavoco6s7zoa",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-23T14:58:21.739000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2020-10-08T06:59:16.561Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    }
+  },
+  "display_name": "ecchbak",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.eu-frankfurt-1.abtheljsbbqcvhzh2n36ph3rxluoiogfoopraqoloy2mlkzawa3cveql2o5a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-10-08T06:59:16.568000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {},
+  "display_name": "SA_1654913603744",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljtxmrbzfbl27ibhoz7zhdrevm75vn4w7vg4ubwzztgtg6uqzsyubpq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:13:23.758000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {},
+  "display_name": "UA_1654907629744",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljsitgmjgp4djtce4r74hkpam5rkdtmof74qtjs673fqgeuhg7viila",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:33:49.748000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {},
+  "display_name": "UA_1658563319058",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljsklkl7i3vcte53wyh6iknkge4bhbpogoyyqaxepngb2dts76gdmiq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:01:59.120000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2023-01-24T14:17:52.113Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "exaccdemo_vpc/exaCCdemo_welcome1    (was W3lcome!)",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "ZDLRA-X9-LLG-llgz07_exaccdemo_vpc",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.uk-london-1.anwgiljsnmvrbeaaw37wzdyoawya6dhwu75pmox7btupnnyi5slaaxu2mdca",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-24T14:17:52.117000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2023-01-04T14:15:02.894Z"
+    },
+    "osc": {
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "VPC user= exaccdemo_vpc , password: W3!come1.  llgz06ingest-scan:1521/oscdb1:dedicated",
+      "scale_up_ocpus": "16"
+    }
+  },
+  "display_name": "ZDLRA-x8-llgz06-LLG",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.uk-london-1.anwgiljtnmvrbeaa2s755j5u5nqhsbnfu34fbyizupbp34lndrfc6o3p4ueq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-01-04T14:15:02.898000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "osc": {
+      "created-by": "ocid1.saml2idp.oc1..aaaaaaaa3t6a3psdiskffrvylozoz3mvi7l7tc3idvsqrpes2c7ssghc7kqa/jackie.boyle@oracle.com\t",
+      "date": "2019-12-18T12:32:25.597Z",
+      "stop_non_working_hours": "on",
+      "type": "user"
+    }
+  },
+  "display_name": "ecce-nfs-bak",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.uk-london-1.abwgiljsjo2gvapqs4cenxsikbybycndshqnly6v6774mwhigc5qvcoifg6a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2019-12-18T12:32:25.600000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2022-06-07T09:57:14.880Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "created to support autonomous DG, needed a separate backup dest to primary.",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "eccj-adb2",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.uk-london-1.anwgiljrnmvrbeaaa3eieod57hp7v7fn4c5xxmixy3hzd736f4npu4lqzovq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-07T09:57:14.885000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaaczlpxnpphlec4ggxirsk3fjyoq5kueduddbewfofh4jekx5a72ia",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2022-02-09T21:23:01.126Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "eccjadbbak",
+  "freeform_tags": {},
+  "identifier": "ocid1.backupdestination.oc1.uk-london-1.anwgiljtnmvrbeaa2xvini7dp5zjhr7i4m67n4onwf5gtntpnc4es5rdxbjq",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "BackupDestination",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-02-09T21:23:01.132000+00:00"
+}]

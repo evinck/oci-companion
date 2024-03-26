@@ -1,0 +1,569 @@
+[{
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "SA_1654855113052",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.eu-frankfurt-1.abtheljtbyp4no63gcjolkwikfneaotbw57j3rpti3i352dblrc33q75filq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T09:58:33.057000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "UA_1654856409341",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.eu-frankfurt-1.abtheljt6gaxemuzgyq44jjfsrlcerqab4c7uxapvxruqykdteeytnj5wmyq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-10T10:20:09.349000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "SA_1654913678275",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafesecurityassessment.oc1.iad.abuwcljs5dvqp5kezvawygldj37tdayi7lhjjt5do7ohffvwzdfq6cxxnyza",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeSecurityAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T02:14:38.285000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "UA_1654907683351",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.iad.abuwcljrflgb3afg5mefwckskuctqjcogl3f5dlcgwhstmqr4mldcbv4jbnq",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-06-11T00:34:43.356000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-06-30T09:48:48.027Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "",
+  "freeform_tags": {},
+  "identifier": "ocid1.onssubscription.oc1.uk-london-1.aaaaaaaayyr37x52vjv4czguekbjrxfo2otca33hsewzb54xp5vwhtysde2q",
+  "identity_context": {
+    "etag": "6c992557",
+    "protocol": "EMAIL",
+    "subscriptionPolicy": "{\"maxReceiveRatePerSecond\":0,\"backoffRetryPolicy\":{\"initialDelayInFailureRetry\":60000,\"maxRetryDuration\":7200000,\"policyType\":\"EXPONENTIAL\"}}",
+    "timeUpdated": "2023-06-30T09:52:23.310Z",
+    "topicId": "ocid1.onstopic.oc1.uk-london-1.aaaaaaaah7pbva4yczsfdrb6ypt2wtdkk4ut33cjvx7s666yvqnlru32a6ma"
+  },
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OnsSubscription",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-06-30T09:48:48.244000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-06-30T09:51:47.476Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "CPU-High-eccj-c1",
+  "freeform_tags": {},
+  "identifier": "ocid1.alarm.oc1.uk-london-1.aaaaaaaat4d2265qyq2tlefvqaher43ssizjhwwokdyt3j7nh4ld7rkfja4a",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "Alarm",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-06-30T09:51:47.592000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-05-26T10:48:51.326Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "sys DEMOwelcome##11",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "DGDEMO",
+  "freeform_tags": {},
+  "identifier": "ocid1.database.oc1.uk-london-1.anwgiljrnmvrbeaareo2mhetdovzoyfoxpsnsucqgvsa6opxg4jwtgwo3ivq",
+  "identity_context": {
+    "dbHomeId": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaaivsvhh6bvlqmpiphttdbrgjdlqjii6db73cgnnd6rhna",
+    "dbHomeName": "OH1919-May2023",
+    "dbName": "DGDEMO",
+    "dbUniqueName": "DGDEMO",
+    "dbVersion": "19.19.0.0.0",
+    "dbWorkload": "OLTP",
+    "infrastructureName": "exacc-infra-eccj",
+    "vmClusterId": "ocid1.vmcluster.oc1.uk-london-1.abwgiljr577b42cg4rt7xezpzbs3yyccatr623cfyfbxdu3yfwhs34ansxaa",
+    "vmClusterName": "eccj-cl1"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Database",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-05-26T10:48:51.338000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-06-30T09:48:46.427Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "ECCJC1",
+  "freeform_tags": {},
+  "identifier": "ocid1.onstopic.oc1.uk-london-1.aaaaaaaah7pbva4yczsfdrb6ypt2wtdkk4ut33cjvx7s666yvqnlru32a6ma",
+  "identity_context": {},
+  "lifecycle_state": "ACTIVE",
+  "resource_type": "OnsTopic",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-06-30T09:48:47.145000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2023-02-01T16:27:57.874Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "MATT",
+  "freeform_tags": {},
+  "identifier": "ocid1.database.oc1.uk-london-1.anwgiljrnmvrbeaara4gg4nnlwsmdn4kbi67vodnzatabglpqtey27cciffa",
+  "identity_context": {
+    "dbHomeId": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaa3o77ytoa4o6hdtiwptd2sgy4k4bpfr5anpi3plromorq",
+    "dbHomeName": "OH1918-Jan2023",
+    "dbName": "MATT",
+    "dbUniqueName": "MATT",
+    "dbVersion": "19.18.0.0.0",
+    "dbWorkload": "OLTP",
+    "infrastructureName": "exacc-infra-eccj",
+    "vmClusterId": "ocid1.vmcluster.oc1.uk-london-1.abwgiljr577b42cg4rt7xezpzbs3yyccatr623cfyfbxdu3yfwhs34ansxaa",
+    "vmClusterName": "eccj-cl1"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Database",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-02-01T16:27:57.882000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "MDEST",
+  "freeform_tags": {},
+  "identifier": "ocid1.database.oc1.uk-london-1.anwgiljrnmvrbeaauka4jeg5lfppdnkgu7rnaj7l2kb5i2nsyahfxwetgnaa",
+  "identity_context": {
+    "dbHomeId": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaa3o77ytoa4o6hdtiwptd2sgy4k4bpfr5anpi3plromorq",
+    "dbHomeName": "OH1918-Jan2023",
+    "dbName": "MDEST",
+    "dbUniqueName": "MDEST",
+    "dbVersion": "19.18.0.0.0",
+    "dbWorkload": "OLTP",
+    "infrastructureName": "exacc-infra-eccj",
+    "vmClusterId": "ocid1.vmcluster.oc1.uk-london-1.abwgiljr577b42cg4rt7xezpzbs3yyccatr623cfyfbxdu3yfwhs34ansxaa",
+    "vmClusterName": "eccj-cl1"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Database",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-04-12T14:08:55+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "MIGPDB1",
+  "freeform_tags": {},
+  "identifier": "ocid1.pluggabledatabase.oc1.uk-london-1.anwgiljrnmvrbeaapz6ar6g24hgqznfvlmaxizri7wak4zt7wnh263m2t7pa",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PluggableDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-02-16T18:53:39.065000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "MTANGMJ1",
+  "freeform_tags": {
+    "password": "WELcome123###"
+  },
+  "identifier": "ocid1.database.oc1.uk-london-1.anwgiljrnmvrbeaaiyyra5beuapxtgkrekamiwqv4s53a2vyf6hrgh4gth6q",
+  "identity_context": {
+    "dbHomeId": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaa3o77ytoa4o6hdtiwptd2sgy4k4bpfr5anpi3plromorq",
+    "dbHomeName": "OH1918-Jan2023",
+    "dbName": "MTANGMJ1",
+    "dbUniqueName": "MTANGMJ1_s9f_lhr",
+    "dbVersion": "19.18.0.0.0",
+    "dbWorkload": "OLTP",
+    "infrastructureName": "exacc-infra-eccj",
+    "vmClusterId": "ocid1.vmcluster.oc1.uk-london-1.abwgiljr577b42cg4rt7xezpzbs3yyccatr623cfyfbxdu3yfwhs34ansxaa",
+    "vmClusterName": "eccj-cl1"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Database",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-09-21T14:40:41.720000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2022-05-06T12:58:50.402Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "OH1914_Jan2022",
+  "freeform_tags": {},
+  "identifier": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaawmn6ifc4tr46ss2fzvbehikq3tpwk5hiwk43d5oiehza",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DbHome",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-05-06T12:58:50.406000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2023-03-15T14:32:20.574Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "OH1918-Jan2023",
+  "freeform_tags": {},
+  "identifier": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaa3o77ytoa4o6hdtiwptd2sgy4k4bpfr5anpi3plromorq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DbHome",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-03-15T14:32:20.580000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-05-26T08:41:40.714Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "OH1919-May2023",
+  "freeform_tags": {},
+  "identifier": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaaivsvhh6bvlqmpiphttdbrgjdlqjii6db73cgnnd6rhna",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DbHome",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-05-26T08:41:40.741000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "PDB01",
+  "freeform_tags": {},
+  "identifier": "ocid1.pluggabledatabase.oc1.uk-london-1.anwgiljrnmvrbeaawibx26bgep7zlg3e3ni4jiywhxr3gf6zpp7m5rovpl7q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PluggableDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-09-21T15:25:27.944000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "osc_exacc": {
+      "DB-Comments": "Usage: Any has small SOE schema DEMOSOE/DEMOwelcome##11"
+    }
+  },
+  "display_name": "PDB1",
+  "freeform_tags": {},
+  "identifier": "ocid1.pluggabledatabase.oc1.uk-london-1.anwgiljrnmvrbeaatq5vl3evcrcygn65caib2psgddniec3zfecf3ts25daq",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PluggableDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-05-26T11:15:25.583000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "PMATT",
+  "freeform_tags": {},
+  "identifier": "ocid1.pluggabledatabase.oc1.uk-london-1.anwgiljrnmvrbeaaawi7byifr63zhsx2mrkznzni7jn7adkssowi26qes62a",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PluggableDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-02-01T16:54:23.436000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/matthieu.bordonne@oracle.com",
+      "CreatedOn": "2021-06-16T14:09:10.338Z"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for Autoscaling demos. Sys and dbsnmp passwords: ZOCJjkd__a98xs"
+    }
+  },
+  "display_name": "SWING",
+  "freeform_tags": {},
+  "identifier": "ocid1.database.oc1.uk-london-1.abwgiljrg7u5ko4xhrio3wc5sufvlnro5omda6ose2z5t5lnuwmcciuikazq",
+  "identity_context": {
+    "dbHomeId": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaa3o77ytoa4o6hdtiwptd2sgy4k4bpfr5anpi3plromorq",
+    "dbHomeName": "OH1918-Jan2023",
+    "dbName": "SWING",
+    "dbUniqueName": "SWING",
+    "dbVersion": "19.18.0.0.0",
+    "dbWorkload": "OLTP",
+    "infrastructureName": "exacc-infra-eccj",
+    "vmClusterId": "ocid1.vmcluster.oc1.uk-london-1.abwgiljr577b42cg4rt7xezpzbs3yyccatr623cfyfbxdu3yfwhs34ansxaa",
+    "vmClusterName": "eccj-cl1"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "Database",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2021-06-16T14:09:10.349000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "SWPDB",
+  "freeform_tags": {},
+  "identifier": "ocid1.pluggabledatabase.oc1.uk-london-1.anwgiljrnmvrbeaas5nvsr74hi2clnvvltwbfspmif4j23v3fkjaa226cg3q",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "PluggableDatabase",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-02-16T18:53:12.936000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {},
+  "display_name": "UA_1658563353714",
+  "freeform_tags": {},
+  "identifier": "ocid1.datasafeuserassessment.oc1.uk-london-1.abwgiljtiuezfkixxmphfsvpagq24i6gxyumnfxfkxvrnaq4tnii3bug4rqa",
+  "identity_context": {},
+  "lifecycle_state": "SUCCEEDED",
+  "resource_type": "DataSafeUserAssessment",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2022-07-23T08:02:33.719000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": "MOFr:UK-LONDON-1-AD-1",
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/melanie.ashworth-march@oracle.com",
+      "CreatedOn": "2023-09-08T11:50:08.300Z"
+    },
+    "osc": {
+      "automatic_shutdown": "17:00_UTC",
+      "automatic_startup": "07:00_UTC",
+      "type": "user"
+    },
+    "osc_exacc": {
+      "DB-Comments": "Used for: xxxx. Sys password: xxxxx",
+      "scale_down_ocpus": "16",
+      "scale_down_time": "no_autoscale",
+      "scale_up_ocpus": "16",
+      "scale_up_time": "no_autoscale"
+    }
+  },
+  "display_name": "dbhome-202309081149",
+  "freeform_tags": {},
+  "identifier": "ocid1.dbhome.oc1.uk-london-1.anwgiljr2pxlkvaatngbputuio545htupc63oowimz6zhb3hgk5i2i7znoha",
+  "identity_context": {},
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "DbHome",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2023-09-08T11:50:08.309000+00:00"
+}, {
+  "additional_details": {},
+  "availability_domain": null,
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaavsmpmshihli2tkmqp2pvkkcnqh5u62ywcwpwjawjiznk7uo52z7a",
+  "defined_tags": {
+    "Oracle-Tags": {
+      "CreatedBy": "oscemea001/jackie.boyle@oracle.com",
+      "CreatedOn": "2020-10-02T14:06:48.360Z"
+    },
+    "osc": {
+      "type": "user"
+    },
+    "osc_exacc": {
+      "scale_down_ocpus": "4",
+      "scale_down_time": "19:00_UTC",
+      "scale_up_ocpus": "4",
+      "scale_up_time": "07:00_UTC"
+    }
+  },
+  "display_name": "eccj-cl1",
+  "freeform_tags": {},
+  "identifier": "ocid1.vmcluster.oc1.uk-london-1.abwgiljr577b42cg4rt7xezpzbs3yyccatr623cfyfbxdu3yfwhs34ansxaa",
+  "identity_context": {
+    "cpuCoreCount": 0,
+    "exaStorageSizeTb": 54.0,
+    "exadataInfrastructureId": "ocid1.exadatainfrastructure.oc1.uk-london-1.abwgiljrkgen5pes7x6gjmsuvdkzw27c3axjrmia7k77mohmyzst62s5faya",
+    "exadataInfrastructureName": "exacc-infra-eccj",
+    "giVersion": "19.19.0.0.0",
+    "licenseType": "BRING_YOUR_OWN_LICENSE",
+    "nodeCount": 2,
+    "shape": "EXACC_HR_V3"
+  },
+  "lifecycle_state": "AVAILABLE",
+  "resource_type": "VmCluster",
+  "search_context": null,
+  "system_tags": {},
+  "time_created": "2020-10-29T11:37:32.698000+00:00"
+}]
