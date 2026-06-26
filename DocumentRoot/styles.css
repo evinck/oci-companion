@@ -1,52 +1,101 @@
 /* Apply some basic styles to your header */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
 .headband {
     background-color: #333;
-    /* Background color for the header */
     color: #fff;
-    /* Text color for the header */
-    padding: 10px;
-    /* Padding for the header content */
+    padding: 0 12px;
+    height: 48px;
+    line-height: 48px;
     position: fixed;
-    /* Fix the header at the top of the page */
     top: 0;
-    /* Stick it to the top */
     left: 0;
     width: 100%;
-    /* Take up the full width of the viewport */
     z-index: 100;
-    /* Ensure it appears on top of other content */
-    /* border-bottom: 2px solid #fff; /* Add a white line beneath the header */
+}
+
+.headband a {
+    color: #fff;
+    margin-left: 12px;
 }
 
 
-.filters { grid-area: filters; }
-.left { grid-area: left; }
-.right { 
-    grid-area: right; 
-    position: relative;
+.toolbar {
+    margin: 0 0 10px;
+    padding: 10px 0;
 }
 
-.right::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -5px; /* Adjust the position of the vertical bar */
-    width: 1px; /* Width of the vertical bar */
-    background-color: #000; /* Color of the vertical bar */
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-        'filters filters'
-        'left right';
-    gap: 10px;
+.toolbar fieldset {
+    border: 1px solid #ccc;
     padding: 10px;
+}
+
+.toolbar legend {
+    padding: 0 5px;
+}
+
+.toolbar-buttons input {
+    margin-right: 10px;
+}
+
+.split-container {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pane {
+    flex: 1;
+    min-width: 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+.resources-pane {
+    overflow: hidden;
+}
+
+.pane h2 {
+    margin-top: 0;
+}
+
+.tree-container {
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #fff;
+    flex: 1;
+    min-height: 0;
+}
+
+.details-panel {
+    margin-top: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    flex-shrink: 0;
+    max-height: 40vh;
+    overflow-y: auto;
 }
 
 main {
-    padding-top: 30px;
-    /* Adjust this value as needed based on your header's height */
+    position: absolute;
+    top: 48px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-

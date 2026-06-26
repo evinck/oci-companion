@@ -13,138 +13,367 @@
 
     <header class="headband">
         OCI Companion (alpha version) - contact: eric.vinck@oracle.com
+        <span id="generated-at"></span>
+        <span id="session-status"></span>
+        <a id="logout-link" href="/logout" hidden>Sign out</a>
     </header>
 
     <main>
-    <div class="grid-container">    
-        <div class="filters">
-        <fieldset>
-            <legend>Options</legend>
-            <div>
-              <input type="button" value="Find Database Instances" id="databaseOnly"/>
-              <input type="button" value="Find Compute Instances" id="computeOnly"/>
-              <input type="button" value="Open All" id="allExpanded"/>
-              <input type="button" value="Close All" id="allClosed"/>
+        <section class="split-container">
+            <div class="pane compartments-pane">
+                <h2>Compartments</h2>
+                <div id="compartment-tree" class="tree-container"></div>
             </div>
-          </fieldset>
-        </div>    
-
-        <div class="left" id="leftSide">
-            <div id="json-tree">
-                <script>
-                    // Fetch JSON data from an external file
-                    $.getJSON('data.json', function (jsonData) {
-                            initializeTree(jsonData);
-                    });
-
-                    function initializeTree(jsonData) {
-                        $('#json-tree').jstree({
-                            // "plugins" : [ "search" ],
-                            'core': {
-                                'data': jsonData
-                            },
-                        });
-                    }
-
-                    // Add a click event handler for details pane
-                    $('#json-tree').on('select_node.jstree', function (e, data) {
-                        var selectedNode = data.node.data;
-                        console.log('Clicked on: ' + data.node.id);
-                        // $('#detailed-name').text("Name : " + selectedNode.display_name)
-                        document.getElementById("detailed").innerHTML = "<table><tbody>" 
-                        + "<tr><td>" + "Name: " + "</td>" + "<td>" + selectedNode.display_name + "</td></tr>"
-                        + "<tr><td>" + "OCID: " + "</td>" + "<td>" + selectedNode.ocid +"</td></tr>"
-                        + "<tr><td>" + "URL: " + "</td>" + "<td>"  + "<a href=\"" + selectedNode.url + "\" target=\"blank\">OCI console</a>" + "</td></tr>"
-                        + "</tbody></table>";
-                    });
-
-                    // Get the top node Id
-                    $('#json-tree').on('loaded.jstree', function (e, data) {
-                        topNodeId = $('#json-tree').jstree(true).get_children_dom($('#json-tree').jstree(true).get_node('#'))[0].id;    
-                    });
-
-
-                    function allExpandedFn() {
-                        console.log('debug allExpanded');
-                        $('#json-tree').jstree(true).open_all();
-                    }
-                   
-
-                    function allClosedFn() {
-                        console.log('debug allClosed');
-
-                        $('#json-tree').jstree(true).close_all();
-                        $('#json-tree').jstree(true).open_node(topNodeId);     
-                    }
-
-                    // computeOnly
-                    function computeOnlyFn() {
-                        console.log('debug computeOnly');
-
-                        $('#json-tree').jstree(true).close_all();
-
-                        var allNodes = $('#json-tree').jstree(true).get_json('#', { flat: true });
-                        
-                        allNodes.forEach(function(node) {
-                            if (node.data.node_type == "Instance") {
-                                
-                                console.log('instance found');
-                                $('#json-tree').jstree(true).open_node(node.id);   
-                                $('#json-tree').jstree(true)._open_to(node.id);                    
-                            }
-                        });
-                        
-                    }
-
-                    function databaseOnlyFn() {
-                        console.log('debug databaseOnly');
-
-                        $('#json-tree').jstree(true).close_all();
-
-                        var allNodes = $('#json-tree').jstree(true).get_json('#', { flat: true });
-                        
-                        allNodes.forEach(function(node) {
-                            if (node.data.node_type == "AutonomousDatabase") {
-                                
-                                console.log('instance found');
-                                $('#json-tree').jstree(true).open_node(node.id);   
-                                $('#json-tree').jstree(true)._open_to(node.id);                    
-                            }
-                        });
-                        
-                    }
-
-
-                    // Add button actions
-                    document.getElementById('allExpanded').addEventListener('click', function() {
-                        allExpandedFn();
-                    });
-
-                    document.getElementById('allClosed').addEventListener('click', function() {
-                        allClosedFn();
-                    });
-
-                    document.getElementById('computeOnly').addEventListener('click',  function() {
-                        computeOnlyFn();
-                    });
-
-                    document.getElementById('databaseOnly').addEventListener('click', function() {
-                        databaseOnlyFn();
-                    });
-
-
-
-                </script>
+            <div class="pane resources-pane">
+                <h2>Resources</h2>
+                <div class="toolbar">
+                    <button id="allExpanded" type="button">Open all</button>
+                    <button id="allClosed" type="button">Close all</button>
+                </div>
+                <div id="resource-tree" class="tree-container"></div>
+                <div id="detailed" class="details-panel"></div>
             </div>
-        </div>
-        
-        <!-- <div class="split resizer" id="dragMe"></div> -->
-        <div class="right" id="rightSide">
-            <div id="detailed" readonly="True" style="height:100px;width:800px">
-            </div>
-        </div>
-    </div>    
+        </section>
     </main>
+
+    <script>
+        $(function () {
+            var originalData = [];
+            var nodeMap = new Map();
+            var parentMap = new Map();
+            var childrenMap = new Map();
+            var currentCompartmentId = null;
+            var resourceTopNodeId = null;
+            var resourceTreeReady = false;
+
+            $.ajax({
+                url: 'api/session',
+                dataType: 'json',
+                cache: false
+            }).done(function (sessionData) {
+                updateSessionStatus(sessionData);
+            }).fail(function () {
+                $('#session-status').text(' | authentication unavailable');
+            });
+
+            $.ajax({
+                url: 'data.json',
+                dataType: 'json',
+                cache: false
+            }).done(function (jsonData) {
+                var sourceData = Array.isArray(jsonData) ? jsonData : (jsonData.nodes || []);
+                originalData = sourceData;
+                if (jsonData.generated_at) {
+                    $('#generated-at').text(' | generated at ' + jsonData.generated_at);
+                } else {
+                    $('#generated-at').text(' | generated at unknown');
+                }
+                buildMaps(sourceData);
+                initializeCompartmentTree();
+                initializeResourceTree();
+            }).fail(function () {
+                $('#generated-at').text(' | generated at unavailable');
+            });
+
+            function updateSessionStatus(sessionData) {
+                var logoutLink = $('#logout-link');
+                if (!sessionData || !sessionData.auth_enabled) {
+                    $('#session-status').text(' | authentication disabled');
+                    logoutLink.attr('hidden', true);
+                    return;
+                }
+
+                if (!sessionData.authenticated || !sessionData.user) {
+                    $('#session-status').text(' | not signed in');
+                    logoutLink.attr('hidden', true);
+                    return;
+                }
+
+                var displayName = sessionData.user.name || sessionData.user.email || sessionData.user.sub || 'unknown user';
+                $('#session-status').text(' | signed in as ' + displayName);
+                logoutLink.removeAttr('hidden');
+            }
+
+            function buildMaps(data) {
+                data.forEach(function (node) {
+                    nodeMap.set(node.id, node);
+                    parentMap.set(node.id, node.parent);
+                    if (!childrenMap.has(node.parent)) {
+                        childrenMap.set(node.parent, []);
+                    }
+                    childrenMap.get(node.parent).push(node.id);
+                });
+            }
+
+            function isCompartmentNode(node) {
+                if (!node) {
+                    return false;
+                }
+                if (node.data && node.data.node_type === 'Compartment') {
+                    return true;
+                }
+                return Boolean(node.icon && node.icon.indexOf('Compartments') !== -1);
+            }
+
+            function isActualCompartment(node) {
+                return Boolean(node && node.icon && node.icon.indexOf('Compartments') !== -1);
+            }
+
+            function cloneNode(node) {
+                var cloned = {
+                    id: node.id,
+                    parent: node.parent,
+                    text: node.text
+                };
+                if (node.icon) {
+                    cloned.icon = node.icon;
+                }
+                if (node.data) {
+                    cloned.data = $.extend(true, {}, node.data);
+                }
+                if (node.state) {
+                    cloned.state = $.extend(true, {}, node.state);
+                }
+                return cloned;
+            }
+
+            function findCompartmentParentId(nodeId) {
+                var currentParent = parentMap.get(nodeId);
+                while (currentParent && currentParent !== '#') {
+                    var parentNode = nodeMap.get(currentParent);
+                    if (!parentNode) {
+                        break;
+                    }
+                    if (isActualCompartment(parentNode) || parentNode.parent === '#') {
+                        return parentNode.id;
+                    }
+                    currentParent = parentMap.get(currentParent);
+                }
+                return '#';
+            }
+
+            function buildCompartmentTreeNodes() {
+                return originalData
+                    .filter(function (node) {
+                        return node.parent === '#' || isActualCompartment(node);
+                    })
+                    .map(function (node) {
+                        var copy = cloneNode(node);
+                        copy.parent = findCompartmentParentId(node.id);
+                        delete copy.state;
+                        return copy;
+                    });
+            }
+
+            function buildResourceTreeData(compartmentId) {
+                var allowed = new Map();
+                var queue = (childrenMap.get(compartmentId) || []).slice();
+
+                while (queue.length) {
+                    var currentId = queue.shift();
+                    var currentNode = nodeMap.get(currentId);
+                    if (!currentNode) {
+                        continue;
+                    }
+                    if (isActualCompartment(currentNode)) {
+                        continue;
+                    }
+                    allowed.set(currentId, cloneNode(currentNode));
+                    var childIds = childrenMap.get(currentId) || [];
+                    childIds.forEach(function (childId) {
+                        queue.push(childId);
+                    });
+                }
+
+                allowed.forEach(function (node) {
+                    if (node.parent === compartmentId || !allowed.has(node.parent)) {
+                        node.parent = '#';
+                    }
+                    if (shouldOpenResourceNodeByDefault(node)) {
+                        node.state = node.state || {};
+                        node.state.opened = true;
+                    }
+                });
+
+                return Array.from(allowed.values());
+            }
+
+            function shouldOpenResourceNodeByDefault(node) {
+                var openByDefaultTypes = new Set([
+                    'Instance',
+                    'AutonomousDatabase',
+                    'Database'
+                ]);
+                return Boolean(
+                    node &&
+                    node.data &&
+                    openByDefaultTypes.has(node.data.node_type)
+                );
+            }
+
+            function initializeCompartmentTree() {
+                var compartmentData = buildCompartmentTreeNodes();
+                $('#compartment-tree').jstree({
+                    core: {
+                        data: compartmentData,
+                        multiple: false
+                    }
+                });
+
+                $('#compartment-tree')
+                    .on('changed.jstree', function (e, data) {
+                        if (!data.selected.length) {
+                            return;
+                        }
+                        var selectedId = data.selected[0];
+                        if (currentCompartmentId === selectedId) {
+                            return;
+                        }
+                        currentCompartmentId = selectedId;
+                        refreshResourceTree(selectedId);
+                    })
+                    .on('ready.jstree', function () {
+                        var tree = $(this).jstree(true);
+                        var flatNodes = tree.get_json('#', { flat: true });
+                        if (flatNodes.length) {
+                            tree.open_node(flatNodes[0].id);
+                            tree.select_node(flatNodes[0].id);
+                        }
+                    });
+            }
+
+            function initializeResourceTree() {
+                $('#resource-tree').jstree({
+                    core: {
+                        data: []
+                    }
+                });
+
+                $('#resource-tree')
+                    .on('loaded.jstree refresh.jstree', function () {
+                        var tree = $(this).jstree(true);
+                        var rootChildren = tree.get_node('#').children || [];
+                        resourceTopNodeId = rootChildren.length ? rootChildren[0] : null;
+                        // Leave the resource tree collapsed by default, except for selected resource types.
+                    })
+                    .on('select_node.jstree', function (e, data) {
+                        var selectedNode = data.node.data;
+                        if (!selectedNode) {
+                            $('#detailed').empty();
+                            return;
+                        }
+                        $('#detailed').html(buildDetailsMarkup(selectedNode));
+                    });
+
+                resourceTreeReady = true;
+            }
+
+            function refreshResourceTree(compartmentId) {
+                if (!resourceTreeReady) {
+                    return;
+                }
+                var tree = $('#resource-tree').jstree(true);
+                var resourceData = buildResourceTreeData(compartmentId);
+                tree.settings.core.data = resourceData;
+                tree.refresh();
+                $('#detailed').empty();
+            }
+
+            function buildDetailsMarkup(data) {
+                var displayName = data.display_name || 'N/A';
+                var ocid = data.ocid || 'N/A';
+                var urlCell = data.url ? '<a href="' + data.url + '" target="_blank">OCI console</a>' : 'N/A';
+                return '<table><tbody>' +
+                    '<tr><td>Name:</td><td>' + displayName + '</td></tr>' +
+                    '<tr><td>OCID:</td><td>' + ocid + '</td></tr>' +
+                    '<tr><td>URL:</td><td>' + urlCell + '</td></tr>' +
+                    '</tbody></table>';
+            }
+
+            function allExpandedFn() {
+                var tree = $('#resource-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+                tree.show_all();
+                tree.open_all();
+            }
+
+            function allClosedFn() {
+                var tree = $('#resource-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+                tree.show_all();
+                tree.close_all();
+            }
+
+            function filterResourceTree(matchFn) {
+                var tree = $('#resource-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+                tree.show_all();
+                var nodes = tree.get_json('#', { flat: true });
+                var visibleIds = new Set();
+
+                nodes.forEach(function (node) {
+                    if (matchFn(node)) {
+                        visibleIds.add(node.id);
+                        var pathIds = tree.get_path(node, { ids: true });
+                        pathIds.forEach(function (pathId) {
+                            visibleIds.add(pathId);
+                        });
+                    }
+                });
+
+                nodes.forEach(function (node) {
+                    if (!visibleIds.has(node.id)) {
+                        tree.hide_node(node.id);
+                    }
+                });
+
+                visibleIds.forEach(function (id) {
+                    tree._open_to(id);
+                });
+            }
+
+            function computeOnlyFn() {
+                filterResourceTree(function (node) {
+                    if (!node.data) {
+                        return false;
+                    }
+                    if (node.data.node_type === 'Instance') {
+                        return true;
+                    }
+                    if (node.icon && node.icon.toLowerCase().indexOf('virtual machine') !== -1) {
+                        return true;
+                    }
+                    return node.id && node.id.indexOf('.instance.') !== -1;
+                });
+            }
+
+            function databaseOnlyFn() {
+                filterResourceTree(function (node) {
+                    if (!node.data) {
+                        return false;
+                    }
+                    if (node.data.node_type === 'AutonomousDatabase') {
+                        return true;
+                    }
+                    if (node.id && node.id.indexOf('.autonomousdatabase.') !== -1) {
+                        return true;
+                    }
+                    return false;
+                });
+            }
+
+            $('#allExpanded').on('click', allExpandedFn);
+            $('#allClosed').on('click', allClosedFn);
+            $('#computeOnly').on('click', computeOnlyFn);
+            $('#databaseOnly').on('click', databaseOnlyFn);
+        });
+    </script>
 </body>
 
 </html>

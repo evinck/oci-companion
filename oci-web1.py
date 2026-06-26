@@ -1,290 +1,327 @@
-import oci, json, argparse, os, sys, re
+import argparse
+import json
+import os
+import re
+import sys
+from datetime import datetime
 
-# utilities
-def save2File(data, file_path):
+import oci
+
+
+DISPLAY_NAME_ESCAPE_PATTERN = r"\\[a-zA-Z]"
+DEFAULT_OUTPUT_LOCATION = "DocumentRoot/data.json"
+
+
+# Write a string payload to a file on disk.
+def save_to_file(data, file_path):
     with open(file_path, "w") as file:
-        # Write the variable to the file
         file.write(data)
 
 
-# Argument Parsing
-parser = argparse.ArgumentParser()
-parser.add_argument('--profile', dest='profile_name', action='store', required=False,
-                    default="DEFAULT", help='the oci profile name')
-parser.add_argument('--profile-location', dest='profile_location', action='store',
-                    default="~/.oci/config", help='the oci config location')
-parser.add_argument('--compartment_id', dest='compartment_id', action='store', required=False,
-                    help='the compartment id')
-parser.add_argument('--output', dest='output_location', action='store',
-                    default="DocumentRoot/data.json", help='the data.json location')
-parser.add_argument('--debug', action='store_true',
-                    help='will print out debug messages')
-parser.add_argument('--debugFiles', action='store_true',
-                    help='will output some files in a "debug" subdirectory')
-args = parser.parse_args()
+# Build the command-line parser used by the generator script.
+def build_arg_parser():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--profile",
+        dest="profile_name",
+        action="store",
+        required=False,
+        default="DEFAULT",
+        help="the oci profile name",
+    )
+    parser.add_argument(
+        "--profile-location",
+        dest="profile_location",
+        action="store",
+        default="~/.oci/config",
+        help="the oci config location",
+    )
+    parser.add_argument(
+        "--compartment_id",
+        dest="compartment_id",
+        action="store",
+        required=False,
+        help="the compartment id",
+    )
+    parser.add_argument(
+        "--output",
+        dest="output_location",
+        action="store",
+        default=DEFAULT_OUTPUT_LOCATION,
+        help="the data.json location",
+    )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="will print out debug messages",
+    )
+    parser.add_argument(
+        "--debugFiles",
+        action="store_true",
+        help='will output some files in a "debug" subdirectory',
+    )
+    return parser
 
-# Summary of what you get from args
-profile_name = args.profile_name
-output_location = args.output_location
-debug = args.debug
-debugFiles = args.debugFiles
-compartmentId = args.compartment_id
 
-# OCI Config
-config = oci.config.from_file(
-    profile_name=args.profile_name, file_location=args.profile_location)
-subscribed_regions = oci.identity.IdentityClient(
-    config).list_region_subscriptions(tenancy_id=config["tenancy"]).data
+# Query OCI, build the tree payload, and optionally write data.json.
+def generate_output(
+    profile_name="DEFAULT",
+    profile_location="~/.oci/config",
+    compartment_id=None,
+    output_location=DEFAULT_OUTPUT_LOCATION,
+    debug=False,
+    debug_files=False,
+):
+    config = oci.config.from_file(
+        profile_name=profile_name,
+        file_location=profile_location,
+    )
+    subscribed_regions = oci.identity.IdentityClient(config).list_region_subscriptions(
+        tenancy_id=config["tenancy"]
+    ).data
 
-# Set the compartment to start from
-if (compartmentId == None):
-    print("No compartment specified, will go for the whole tenancy (can be long !).")
-    compartmentId = config["tenancy"]
+    run_timestamp = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %Z%z")
 
-# Init the search clients
-search_clients = {}
-for region in subscribed_regions:
-    config["region"] = region.region_name
-    search_clients[region.region_name] = oci.resource_search.ResourceSearchClient(
-        config)
+    identity_client = oci.identity.IdentityClient(config)
+    tenancy = identity_client.get_tenancy(config["tenancy"]).data
+    tenancy_name = tenancy.name
 
-# Fill in the database with OCI
-# TODO : avoid searching identity resources each time
-debugFileNumber=0
-def queryOCI(compartmentId):
-    global debugFileNumber
-    query_string = "query all resources where compartmentId='{}' sorted by displayName asc".format(
-        compartmentId)
+    if compartment_id is None:
+        print("No compartment specified, will go for the whole tenancy (can be long !).")
+        compartment_id = config["tenancy"]
 
-    data = []
+    search_clients = {}
+    for region in subscribed_regions:
+        config["region"] = region.region_name
+        search_clients[region.region_name] = oci.resource_search.ResourceSearchClient(
+            config
+        )
 
-    for region_name, search_client in search_clients.items():
-        search_resources_response = search_client.search_resources(search_details=oci.resource_search.models.StructuredSearchDetails(
-            type="Structured",
-            query=query_string,
-            matching_context_type="NONE"), limit=1000)
-        newdata = search_resources_response.data.items
+    debug_file_number = 0
 
-        while search_resources_response.has_next_page:
-            search_resources_response = search_client.search_resources(search_details=oci.resource_search.models.StructuredSearchDetails(
-                type="Structured",
-                query=query_string,
-                matching_context_type="NONE"), limit=1000, page=search_resources_response.next_page)
-            newdata += search_resources_response.data.items
+    # Query OCI Search across all subscribed regions for one compartment.
+    def query_oci(target_compartment_id):
+        nonlocal debug_file_number
+        query_string = (
+            "query all resources where compartmentId='{}' sorted by displayName asc"
+        ).format(target_compartment_id)
 
-        data += newdata
+        data = []
 
-        if (debug):
-            print("DEBUG: {} elements acquired from OCI for compartment {} in region {}.".format(
-                len(newdata), compartmentId, region_name))
+        for region_name, search_client in search_clients.items():
+            search_resources_response = search_client.search_resources(
+                search_details=oci.resource_search.models.StructuredSearchDetails(
+                    type="Structured",
+                    query=query_string,
+                    matching_context_type="NONE",
+                ),
+                limit=1000,
+            )
+            newdata = search_resources_response.data.items
 
-    if (debug):
-        print("DEBUG: {} elements acquired from OCI for compartment {} (total in all regions).".format(
-            len(data), compartmentId))
+            while search_resources_response.has_next_page:
+                search_resources_response = search_client.search_resources(
+                    search_details=oci.resource_search.models.StructuredSearchDetails(
+                        type="Structured",
+                        query=query_string,
+                        matching_context_type="NONE",
+                    ),
+                    limit=1000,
+                    page=search_resources_response.next_page,
+                )
+                newdata += search_resources_response.data.items
 
-    if (debugFiles):
-        os.makedirs("debug", exist_ok=True)
-        save2File(str(data),
-                 "debug/output-{}.json".format(debugFileNumber))
-        debugFileNumber += 1
+            data += newdata
 
-    return data
+            if debug:
+                print(
+                    "DEBUG: {} elements acquired from OCI for compartment {} in region {}.".format(
+                        len(newdata), target_compartment_id, region_name
+                    )
+                )
 
-# Database
-# each Database entry should be like {"ocid...",{"parent":"xxx","type":"xxx","display":"name","rawdata":"xxxx"}}
-pattern=r'\\[a-zA-Z]'
-def fillDatabase(database, compartmentId):
+        if debug:
+            print(
+                "DEBUG: {} elements acquired from OCI for compartment {} (total in all regions).".format(
+                    len(data), target_compartment_id
+                )
+            )
 
-    # for the progress bar
-    if (not debug) :
-        print('.', end='')
-        sys.stdout.flush()
+        if debug_files:
+            os.makedirs("debug", exist_ok=True)
+            save_to_file(str(data), "debug/output-{}.json".format(debug_file_number))
+            debug_file_number += 1
 
-    data = queryOCI(compartmentId)
-    for item in data:
-        # skip if item has already been processed
-        try :
-            database[item.identifier]
-            continue
-        except:
-            pass
-        # skip if state is not useful for us
-        # try/except because some resources don't have the lifecycle_state value
-        try :
-            if str.upper(item.lifecycle_state) in ['DELETING', 'DELETED', 'TERMINATING', 'TERMINATED']:
-                continue
-        except:
-            pass
+        return data
 
-        # Recursion for compartments
-        if item.resource_type == 'Compartment':
-            # Check if compartment hasn't been processed already (identity information got multiple times - from each region)
-            try :
+    # Recursively collect OCI resources into the in-memory database.
+    def fill_database(database, target_compartment_id):
+        if not debug:
+            print(".", end="")
+            sys.stdout.flush()
+
+        data = query_oci(target_compartment_id)
+        for item in data:
+            try:
                 database[item.identifier]
                 continue
-            except:
-                fillDatabase(database, item.identifier)
+            except KeyError:
+                pass
 
-        key = item.identifier
-        value_dict = {}
-        value_dict['parent'] = compartmentId
-        value_dict['type'] = item.resource_type
-        # clean up the display name
-        display_name = re.sub(pattern,'',str(item.display_name))
-        value_dict["display_name"]= display_name
-        value_dict['rawdata'] = item.__dict__
+            lifecycle_state = getattr(item, "lifecycle_state", None)
+            if isinstance(lifecycle_state, str) and lifecycle_state.upper() in [
+                "DELETING",
+                "DELETED",
+                "TERMINATING",
+                "TERMINATED",
+            ]:
+                continue
 
-        database[key]=value_dict
+            if item.resource_type == "Compartment":
+                try:
+                    database[item.identifier]
+                    continue
+                except KeyError:
+                    fill_database(database, item.identifier)
 
-    return 
+            key = item.identifier
+            value_dict = {}
+            value_dict["parent"] = target_compartment_id
+            value_dict["type"] = item.resource_type
+            value_dict["display_name"] = re.sub(
+                DISPLAY_NAME_ESCAPE_PATTERN, "", str(item.display_name)
+            )
+            value_dict["rawdata"] = item.__dict__
 
-# The main to call
-def makeJSTree(database, top_ocid):
-    json = '{{"id": "{}", "parent": "#", "text": "<b>{}</b>", "state" :{{"opened":true}}}},\n'.format(top_ocid, top_ocid)
-    
-    #json += makeJSSubTree(database, top_ocid)
-    json += makeJSSubTreeSortedByType(database, top_ocid)
-    #json += makeJSSubTreeConsolidatedByType(database, top_ocid)
+            database[key] = value_dict
 
-    # remove the last comma
-    return json[:-2]
+    # Extract the OCI region name from an OCID when possible.
+    def guess_region_from_ocid(ocid):
+        match = re.search(r"\.oc1\.([^\.]*)\.", ocid)
+        if match:
+            return match.group(1)
+        return subscribed_regions[0].region_name
 
-# Regular SubTree
-def makeJSSubTree(database, ocid):
-    json = ""
+    # Build the frontend metadata attached to one tree node.
+    def make_js_tree_data_item(database, ocid):
+        data_item = {}
+        data_item["node_type"] = "item"
+        data_item["display_name"] = database[ocid]["display_name"]
+        data_item["ocid"] = ocid
+        data_item["url"] = (
+            "https://cloud.oracle.com/?tenant="
+            + tenancy_name
+            + "&search?q="
+            + ocid
+            + "&region="
+            + guess_region_from_ocid(ocid)
+        )
+        return data_item
 
-    subnode_keys = [key for key,value in database.items() if value['parent'] == ocid ]
+    default_icon = "images/leaf.png"
+    icon_chooser = {
+        "Directory": "images/Directory.svg",
+        "Compartment": "images/Compartments.svg",
+        "AutonomousDatabase": "images/Autonomous Database.svg",
+        "Bucket": "images/Buckets.svg",
+        "Instance": "images/Virtual Machine.svg",
+        "User": "images/User.svg",
+        "Group": "images/User Group unisex.svg",
+    }
 
-    for key in subnode_keys:
-        # json +=  '{{"id": "{}", "parent": "{}", "text": "<b>{}</b>", "state" :{{"opened":"true"}}}},\n'.format(key, ocid, database[key]["display_name"])
-        json +=  '{{"id": "{}", "parent": "{}", "text": "<b>{}</b>"}},\n'.format(key, ocid, database[key]["display_name"])
-        # recursion
-        if database[key]['type'] == 'Compartment':
-            json += makeJSSubTree(database, key)
-    return json
+    # Build the resource subtree grouped by resource type.
+    def make_js_subtree_sorted_by_type(database, ocid):
+        njson = ""
+        subnode_keys = [key for key, value in database.items() if value["parent"] == ocid]
 
-# TODO: doesn't work for buckets 
-def guess_region_fromocid(ocid):
-    region = ""
-    pattern = r'\.oc1\.([^\.]*)\.'
-    match = re.search(pattern, ocid)
-    region = match.group(1) if match else subscribed_regions[0]
+        types_count = {}
+        for key in subnode_keys:
+            try:
+                types_count[database[key]["type"]] += 1
+            except KeyError:
+                types_count[database[key]["type"]] = 1
 
-    return region
+        for key, value in types_count.items():
+            data_item = {"node_type": key}
+            data_item = json.dumps(data_item)
+            if key == "Compartment":
+                opened_state = "true"
+            else:
+                opened_state = "false"
 
-# We'll use this one to build the data field 
-def makeJSTreeDataItem(database, ocid):
-    # TypeError: Object of type datetime is not JSON serializable
-    #dataItem = database[ocid]['rawdata']
-    dataItem={}
-    dataItem['node_type']="item"
-    dataItem['display_name']=database[ocid]['display_name']
-    dataItem['ocid']=ocid
-    dataItem['url']="https://cloud.oracle.com/search?q=" + ocid + "&region=" + guess_region_fromocid(ocid)
-     
-    return dataItem
+            njson += (
+                '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "data":{}, '
+                '"state" :{{"opened":{}}}}},\n'
+            ).format(ocid, key, ocid, key, value, data_item, opened_state)
 
-# IconChooser
-DefaultIcon = "images/leaf.png"
-IconChooser = {
-    "Directory" :"images/Directory.svg",
-    "Compartment" : "images/Compartments.svg",
-    "Bucket" : "images/Buckets.svg",
-    "Instance" : "images/Virtual Machine.svg",
-    "User" : "images/User.svg",
-    "Group" : "images/User Group unisex.svg"
-}
+        for key in subnode_keys:
+            data_item = json.dumps(make_js_tree_data_item(database, key))
+            icon = icon_chooser.get(database[key]["type"], default_icon)
 
-# The main one
-# Subtree with types identified and counted
-def makeJSSubTreeSortedByType(database, ocid):
-    njson = ""
+            njson += (
+                '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>", "icon":"{}", '
+                '"data" : {}}},\n'
+            ).format(
+                key,
+                ocid,
+                database[key]["type"],
+                database[key]["display_name"],
+                icon,
+                data_item,
+            )
 
-    subnode_keys = [key for key,value in database.items() if value['parent'] == ocid]
-    
-    typesCount = {}
-    for key in subnode_keys:
-        try:
-            typesCount[database[key]['type']] +=1
-        except:
-            typesCount[database[key]['type']] = 1
+            if database[key]["type"] == "Compartment":
+                njson += make_js_subtree_sorted_by_type(database, key)
 
-    # Create subnodes for types
-    for key,value in typesCount.items():
-        dataItem = {}
-        dataItem['node_type'] = key
-        dataItem = json.dumps(dataItem)
-        icon = IconChooser['Directory']
-        if  key == 'Compartment':
-            # Compartments type is opened by default
-            opened_state = "true"
-        else:
-            opened_state = "false"
-        
-        # njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "icon":"{}", "data":{}, "state" :{{"opened":{}}}}},\n'.format(ocid, key, ocid, key, value, icon, dataItem,opened_state)
-        njson +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>", "data":{}, "state" :{{"opened":{}}}}},\n'.format(ocid, key, ocid, key, value, dataItem,opened_state)
-        
+        return njson
 
+    # Build the complete jsTree payload starting at the selected compartment.
+    def make_js_tree(database, top_ocid):
+        tree_json = (
+            '{{"id": "{}", "parent": "#", "text": "<b>{}</b>", '
+            '"state" :{{"opened":true}}}},\n'
+        ).format(top_ocid, top_ocid)
+        tree_json += make_js_subtree_sorted_by_type(database, top_ocid)
+        return tree_json[:-2]
 
-    # Create subnodes sorted in each type
-    for key in subnode_keys:
-        dataItem = json.dumps(makeJSTreeDataItem(database, key))
-        icon = IconChooser.get(database[key]['type'],DefaultIcon)
+    print("Querying OCI and making up internal database (can be long !) ..", end="")
+    sys.stdout.flush()
 
-        njson +=  '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>", "icon":"{}", "data" : {}}},\n'.format(key, ocid, database[key]['type'], database[key]['display_name'], icon, dataItem)
-        # recursion
+    database = {}
+    fill_database(database, compartment_id)
+    print(".")
 
-        if database[key]["type"] == 'Compartment':
-            njson += makeJSSubTreeSortedByType(database, key)
+    if debug_files:
+        save_to_file(str(database), "database.debug")
 
-    return njson
+    tree_json = make_js_tree(database, compartment_id)
 
-# "Flat subtree consolidated by type"
-def allsubnodes_keys(database, ocid):
-    subnode_keys = [key for key,value in database.items() if value['parent'] == ocid]
-    toReturn = subnode_keys
-    for key in subnode_keys:
-        toReturn += allsubnodes_keys(database, key)
-    return toReturn
+    output_payload = {
+        "generated_at": run_timestamp,
+        "nodes": json.loads("[" + tree_json + "]"),
+    }
 
-def makeJSSubTreeConsolidatedByType(database, ocid):
+    if output_location:
+        print("Writing the data.json file to {}".format(output_location))
+        save_to_file(json.dumps(output_payload), output_location)
 
-    json = ""
-    all_keys = allsubnodes_keys(database,ocid)
-    typesCount = {}
-    for key in all_keys :
-        try:
-            typesCount[database[key]['type']] +=1
-        except:
-            typesCount[database[key]['type']] = 1
-
-    for key,value in typesCount.items():
-        json +=  '{{"id": "{}_{}", "parent": "{}", "text": "<b>{} ({})</b>"}},\n'.format(ocid, key, ocid, key, value)
-
-    for key in all_keys:
-        json +=  '{{"id": "{}", "parent": "{}_{}", "text": "<b>{}</b>"}},\n'.format(key, ocid, database[key]['type'], database[key]['display_name'])
-
-    return json
+    return output_payload
 
 
-# Start of the script
-print("Querying OCI and making up internal database (can be long !) ..", end='')
-sys.stdout.flush()
+# Parse command-line arguments and run the OCI export once.
+def main(argv=None):
+    parser = build_arg_parser()
+    args = parser.parse_args(argv)
+    generate_output(
+        profile_name=args.profile_name,
+        profile_location=args.profile_location,
+        compartment_id=args.compartment_id,
+        output_location=args.output_location,
+        debug=args.debug,
+        debug_files=args.debugFiles,
+    )
+    return 0
 
-# build the database of OCI objects
-database = {}
-fillDatabase(database, compartmentId)
-print(".")
 
-if debugFiles :
-    save2File(str(database),"database.debug")
-
-# build the json tree for html display
-json = makeJSTree(database, compartmentId)
-
-# the [] are there for use by javascript
-print("Writing the data.json file to {}".format(output_location))
-save2File("[" + json + "]", output_location)
-
-# exit gracefully
-exit(0)
+if __name__ == "__main__":
+    raise SystemExit(main())

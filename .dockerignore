@@ -1,0 +1,17 @@
+.git
+.gitignore
+.env
+.codex
+__pycache__
+*.pyc
+certs
+DocumentRoot/data.json
+DocumentRoot/data.json.prev
+debug
+database.debug
+notes.md
+git.md
+howto-test.md
+howto-test-remote.md
+setup-for-*.md
+screenshot1.png
