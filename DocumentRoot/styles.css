@@ -43,6 +43,14 @@ body {
     margin-right: 10px;
 }
 
+.compartment-toolbar {
+    display: flex;
+    flex-shrink: 0;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+}
+
 .split-container {
     display: flex;
     gap: 16px;
@@ -68,6 +76,37 @@ body {
 
 .pane h2 {
     margin-top: 0;
+}
+
+.compartment-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 8px;
+}
+
+.compartment-search input {
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 0;
+    height: 34px;
+    border: 1px solid #bbb;
+    padding: 6px 10px;
+    font: inherit;
+    background-color: #fff;
+}
+
+.compartment-search input:focus {
+    border-color: #4d7ec3;
+    outline: 2px solid rgba(77, 126, 195, 0.2);
+    outline-offset: 0;
+}
+
+.search-status {
+    min-height: 18px;
+    margin: 0 0 8px;
+    color: #555;
+    font-size: 12px;
 }
 
 .tree-container {

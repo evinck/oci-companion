@@ -27,7 +27,7 @@ You need your ``.oci/config`` file to be ready for accessing your tenant (as exp
 
 Currently the tool requires the ``key_file`` file refered in the ``config`` file to be located in the same ``.oci`` directory, as we're mounting whole directory when running the docker image. 
 
-You can also create a local `.env` file from [.env.example](.env.example) for HTTPS and OCI IAM settings. `start.sh` loads `/app/.env` automatically when it exists.
+You can also create a local `.env` file from [.env.example](.env.example) for HTTPS and OCI IAM settings. OCI Companion is intended to run only from the container image; the container entrypoint loads `/app/.env` automatically when it exists.
 
 ## How to run
 
@@ -67,7 +67,17 @@ Once you see the you can open a web browser at localhost :
 
 ``xdg-open https://localhost:8080``
 
-When you run `app.py`, it generates `DocumentRoot/data.json` once at startup and then refreshes it continuously in the background. As soon as one OCI scan finishes, the next one starts.
+When the container starts, it generates `DocumentRoot/data.json` once at startup and then refreshes it continuously in the background. As soon as one OCI scan finishes, the next one starts.
+
+## UI debug mode
+
+If you already have a local `DocumentRoot/data.json` file and only want to test the web UI, run without querying OCI through the container image:
+
+````
+./run-local.sh --ui-debug
+````
+
+The local Podman helper builds the image, bind-mounts the local `DocumentRoot/data.json` into the container, and starts the app with `--ui-debug`. In UI debug mode the app serves the existing data file and does not generate or refresh it.
 
 ## OCI IAM authentication
 
@@ -114,6 +124,14 @@ docker run -it \
 
 The configured redirect URI must exactly match the callback route exposed by the app.
 
+For local/container testing without OCI IAM authentication, start the image with `--noauth`:
+
+````
+./run-local.sh --noauth
+````
+
+This bypasses the OCI IAM login flow even if IAM values are present in `.env`.
+
 If you already have a `DocumentRoot/data.json` file and do not want to query OCI again at startup, run the web app with `--keep-existing-data`.
 
 ## Local self-signed HTTPS
@@ -131,12 +149,17 @@ openssl req -x509 -newkey rsa:2048 -nodes \
   -subj "/CN=localhost"
 ````
 
-Then start the app with:
+Then start the container with:
 
 ````
-export OCI_COMPANION_SSL_CERT_FILE=$PWD/certs/localhost-cert.pem
-export OCI_COMPANION_SSL_KEY_FILE=$PWD/certs/localhost-key.pem
-python ./app.py
+docker run -it \
+  -v $HOME/.oci:/root/.oci:Z \
+  -v $PWD/certs:/app/certs:Z \
+  -v $PWD/.env:/app/.env:Z \
+  -p 8080:8080 \
+  -e OCI_COMPANION_SSL_CERT_FILE=/app/certs/localhost-cert.pem \
+  -e OCI_COMPANION_SSL_KEY_FILE=/app/certs/localhost-key.pem \
+  oci-companion
 ````
 
 If you also use OCI IAM authentication locally, use an `https://localhost:8080/auth/callback` redirect URI and set `OCI_COMPANION_COOKIE_SECURE=true`.

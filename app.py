@@ -1,10 +1,26 @@
 import importlib.util
 import os
 import secrets
+import sys
 import threading
 import time
 from functools import wraps
 from urllib.parse import urlencode
+
+
+CONTAINER_RUNTIME_VALUES = ("1", "true", "yes", "on")
+
+if (
+    __name__ == "__main__"
+    and os.getenv("OCI_COMPANION_CONTAINER_IMAGE", "").strip().lower()
+    not in CONTAINER_RUNTIME_VALUES
+):
+    print(
+        "OCI Companion must be run from the container image. "
+        "Use ./run-local.sh or docker/podman run with the built image.",
+        file=sys.stderr,
+    )
+    raise SystemExit(2)
 
 import jwt
 import requests
@@ -27,7 +43,8 @@ SESSION_COOKIE_NAME = "oci_companion_sid"
 # Collect the runtime authentication settings used by the web app.
 class AuthConfig:
     # Read OCI IAM and session settings from the environment.
-    def __init__(self):
+    def __init__(self, noauth=False):
+        self.noauth = noauth
         self.domain_url = os.getenv("OCI_IAM_DOMAIN_URL", "").strip().rstrip("/")
         self.client_id = os.getenv("OCI_IAM_CLIENT_ID", "").strip()
         self.client_secret = os.getenv("OCI_IAM_CLIENT_SECRET", "").strip()
@@ -48,6 +65,8 @@ class AuthConfig:
     @property
     # Tell the app whether OCI IAM authentication is fully configured.
     def enabled(self):
+        if self.noauth:
+            return False
         return all(
             [
                 self.domain_url,
@@ -212,9 +231,25 @@ def safe_next_url(candidate):
     return candidate
 
 
+def env_flag(name):
+    return os.getenv(name, "").strip().lower() in CONTAINER_RUNTIME_VALUES
+
+
+def require_container_image_runtime():
+    if env_flag("OCI_COMPANION_CONTAINER_IMAGE"):
+        return
+
+    print(
+        "OCI Companion must be run from the container image. "
+        "Use ./run-local.sh or docker/podman run with the built image.",
+        file=sys.stderr,
+    )
+    raise SystemExit(2)
+
+
 # Create and configure the Flask application.
 def create_app(args):
-    auth_config = AuthConfig()
+    auth_config = AuthConfig(noauth=args.noauth)
     session_store = InMemorySessionStore(auth_config.session_ttl_seconds)
     oidc_client = OIDCClient(auth_config)
     data_file = os.path.abspath(args.output_location)
@@ -511,11 +546,36 @@ def main(argv=None):
         action="store_true",
         help="serve the existing data.json without regenerating it",
     )
+    parser.add_argument(
+        "--ui-debug",
+        dest="ui_debug",
+        action="store_true",
+        default=env_flag("OCI_COMPANION_UI_DEBUG"),
+        help="serve the existing data.json for UI testing without generating OCI data",
+    )
+    parser.add_argument(
+        "--noauth",
+        dest="noauth",
+        action="store_true",
+        default=env_flag("OCI_COMPANION_NOAUTH"),
+        help="disable OCI IAM authentication even when IAM settings are configured",
+    )
     args = parser.parse_args(argv)
+    require_container_image_runtime()
+
+    if args.ui_debug:
+        args.keep_existing_data = True
 
     if args.keep_existing_data:
         ensure_existing_data_file(args.output_location)
-        print("Using existing data file at {}".format(args.output_location))
+        if args.ui_debug:
+            print(
+                "UI debug mode enabled; using existing data file at {}".format(
+                    args.output_location
+                )
+            )
+        else:
+            print("Using existing data file at {}".format(args.output_location))
     else:
         refresh_data_file(args)
 

@@ -22,6 +22,19 @@
         <section class="split-container">
             <div class="pane compartments-pane">
                 <h2>Compartments</h2>
+                <div class="compartment-search">
+                    <input
+                        id="compartment-search"
+                        type="search"
+                        placeholder="Search compartments"
+                        autocomplete="off"
+                        aria-label="Search compartments">
+                    <div class="toolbar compartment-toolbar">
+                        <button id="compartmentsOpenAll" type="button">Open all</button>
+                        <button id="compartmentsCloseAll" type="button">Close all</button>
+                    </div>
+                </div>
+                <div id="compartment-search-status" class="search-status" aria-live="polite"></div>
                 <div id="compartment-tree" class="tree-container"></div>
             </div>
             <div class="pane resources-pane">
@@ -45,6 +58,7 @@
             var currentCompartmentId = null;
             var resourceTopNodeId = null;
             var resourceTreeReady = false;
+            var compartmentSearchTimer = null;
 
             $.ajax({
                 url: 'api/session',
@@ -165,6 +179,28 @@
                     });
             }
 
+            function normalizeSearchText(value) {
+                return String(value || '').replace(/<[^>]*>/g, ' ').toLowerCase();
+            }
+
+            function compartmentSearchCallback(query, node) {
+                var normalizedQuery = normalizeSearchText(query).trim();
+                if (!normalizedQuery) {
+                    return true;
+                }
+
+                var searchableParts = [
+                    node.text
+                ];
+                if (node.data) {
+                    searchableParts.push(node.data.display_name);
+                }
+
+                return searchableParts.some(function (part) {
+                    return normalizeSearchText(part).indexOf(normalizedQuery) !== -1;
+                });
+            }
+
             function buildResourceTreeData(compartmentId) {
                 var allowed = new Map();
                 var queue = (childrenMap.get(compartmentId) || []).slice();
@@ -217,6 +253,13 @@
                     core: {
                         data: compartmentData,
                         multiple: false
+                    },
+                    plugins: ['search'],
+                    search: {
+                        case_sensitive: false,
+                        show_only_matches: false,
+                        close_opened_onclear: false,
+                        search_callback: compartmentSearchCallback
                     }
                 });
 
@@ -239,7 +282,167 @@
                             tree.open_node(flatNodes[0].id);
                             tree.select_node(flatNodes[0].id);
                         }
+                    })
+                    .on('search.jstree', function (e, data) {
+                        handleCompartmentSearchResults(extractCompartmentSearchMatchIds(data), data.str || '');
+                    })
+                    .on('clear_search.jstree', function () {
+                        $('#compartment-search-status').text('');
+                        resetCompartmentTreeOpenState();
                     });
+
+                bindCompartmentSearch();
+                bindCompartmentToolbar();
+            }
+
+            function bindCompartmentSearch() {
+                $('#compartment-search').on('input', function () {
+                    var query = $(this).val();
+                    window.clearTimeout(compartmentSearchTimer);
+                    compartmentSearchTimer = window.setTimeout(function () {
+                        runCompartmentSearch(query);
+                    }, 150);
+                });
+            }
+
+            function bindCompartmentToolbar() {
+                $('#compartmentsOpenAll').on('click', openAllCompartments);
+                $('#compartmentsCloseAll').on('click', closeAllCompartments);
+            }
+
+            function openAllCompartments() {
+                var tree = $('#compartment-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+
+                tree.clear_search();
+                tree.open_all();
+            }
+
+            function closeAllCompartments() {
+                var tree = $('#compartment-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+
+                tree.clear_search();
+                resetCompartmentTreeOpenState();
+            }
+
+            function runCompartmentSearch(query) {
+                var tree = $('#compartment-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+
+                var normalizedQuery = String(query || '').trim();
+                if (!normalizedQuery) {
+                    tree.clear_search();
+                    return;
+                }
+
+                tree.search(normalizedQuery);
+            }
+
+            function handleCompartmentSearchResults(matchIds, query) {
+                var tree = $('#compartment-tree').jstree(true);
+                if (!tree || !String(query || '').trim()) {
+                    return;
+                }
+
+                tree.close_all();
+                updateCompartmentSearchStatus(matchIds);
+                if (!matchIds.length) {
+                    return;
+                }
+
+                openCompartmentSearchMatches(tree, matchIds);
+
+                var firstMatchId = findFirstCompartmentSearchMatch(tree, matchIds);
+                if (!firstMatchId) {
+                    return;
+                }
+
+                tree.deselect_all(true);
+                tree._open_to(firstMatchId);
+                tree.select_node(firstMatchId);
+                scrollCompartmentNodeIntoView(firstMatchId);
+            }
+
+            function resetCompartmentTreeOpenState() {
+                var tree = $('#compartment-tree').jstree(true);
+                if (!tree) {
+                    return;
+                }
+
+                tree.close_all();
+                if (currentCompartmentId) {
+                    tree._open_to(currentCompartmentId);
+                    tree.open_node(currentCompartmentId);
+                    scrollCompartmentNodeIntoView(currentCompartmentId);
+                }
+            }
+
+            function openCompartmentSearchMatches(tree, matchIds) {
+                matchIds.forEach(function (matchId) {
+                    tree._open_to(matchId);
+                    tree.open_node(matchId);
+                });
+            }
+
+            function extractCompartmentSearchMatchIds(data) {
+                if (Array.isArray(data.res)) {
+                    return data.res.map(extractSearchNodeId).filter(Boolean);
+                }
+                if (Array.isArray(data.nodes)) {
+                    return data.nodes.map(extractSearchNodeId).filter(Boolean);
+                }
+                if (data.nodes && typeof data.nodes.get === 'function') {
+                    return data.nodes.get().map(extractSearchNodeId).filter(Boolean);
+                }
+                return [];
+            }
+
+            function extractSearchNodeId(node) {
+                if (typeof node === 'string') {
+                    return node;
+                }
+                if (node && node.id) {
+                    return node.id;
+                }
+                return null;
+            }
+
+            function updateCompartmentSearchStatus(matchIds) {
+                var matchCount = matchIds.length;
+                if (!matchCount) {
+                    $('#compartment-search-status').text('No matching compartment');
+                    return;
+                }
+                $('#compartment-search-status').text(
+                    matchCount === 1 ? '1 matching compartment' : matchCount + ' matching compartments'
+                );
+            }
+
+            function findFirstCompartmentSearchMatch(tree, matchIds) {
+                var matchSet = new Set(matchIds);
+                var flatNodes = tree.get_json('#', { flat: true });
+                for (var index = 0; index < flatNodes.length; index += 1) {
+                    if (matchSet.has(flatNodes[index].id)) {
+                        return flatNodes[index].id;
+                    }
+                }
+                return matchIds[0];
+            }
+
+            function scrollCompartmentNodeIntoView(nodeId) {
+                window.requestAnimationFrame(function () {
+                    var nodeElement = document.getElementById(nodeId);
+                    if (nodeElement) {
+                        nodeElement.scrollIntoView({ block: 'center' });
+                    }
+                });
             }
 
             function initializeResourceTree() {
