@@ -3,6 +3,7 @@
 .codex
 __pycache__/
 *.pyc
+oci-idm-setup.odt
 certs/
 DocumentRoot/data.json
 DocumentRoot/data.json.prev
