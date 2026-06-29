@@ -4,6 +4,7 @@ import secrets
 import sys
 import threading
 import time
+from datetime import datetime
 from functools import wraps
 from urllib.parse import urlencode
 
@@ -17,7 +18,7 @@ if (
 ):
     print(
         "OCI Companion must be run from the container image. "
-        "Use ./run-local.sh or docker/podman run with the built image.",
+        "Use scripts/run-local.sh or docker/podman run with the built image.",
         file=sys.stderr,
     )
     raise SystemExit(2)
@@ -26,8 +27,11 @@ import jwt
 import requests
 from flask import Flask, jsonify, make_response, redirect, request, send_from_directory
 
+ENGINE_DIR = os.path.abspath(os.path.dirname(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(ENGINE_DIR, os.pardir))
+
 # Load the generator helpers from oci-web1.py, whose filename cannot be imported directly as a module.
-OCI_WEB1_PATH = os.path.join(os.path.dirname(__file__), "oci-web1.py")
+OCI_WEB1_PATH = os.path.join(ENGINE_DIR, "oci-web1.py")
 OCI_WEB1_SPEC = importlib.util.spec_from_file_location("oci_web1_script", OCI_WEB1_PATH)
 OCI_WEB1_MODULE = importlib.util.module_from_spec(OCI_WEB1_SPEC)
 OCI_WEB1_SPEC.loader.exec_module(OCI_WEB1_MODULE)
@@ -36,7 +40,7 @@ build_arg_parser = OCI_WEB1_MODULE.build_arg_parser
 generate_output = OCI_WEB1_MODULE.generate_output
 
 
-DOCUMENT_ROOT = os.path.join(os.path.dirname(__file__), "DocumentRoot")
+DOCUMENT_ROOT = os.path.join(PROJECT_ROOT, "DocumentRoot")
 SESSION_COOKIE_NAME = "oci_companion_sid"
 
 
@@ -241,7 +245,7 @@ def require_container_image_runtime():
 
     print(
         "OCI Companion must be run from the container image. "
-        "Use ./run-local.sh or docker/podman run with the built image.",
+        "Use scripts/run-local.sh or docker/podman run with the built image.",
         file=sys.stderr,
     )
     raise SystemExit(2)
@@ -469,15 +473,29 @@ def resolve_ssl_context(args):
 
 # Run one OCI scan and write the refreshed data.json file.
 def refresh_data_file(args):
-    print("Refreshing data file at {}".format(args.output_location))
-    generate_output(
-        profile_name=args.profile_name,
-        profile_location=args.profile_location,
-        compartment_id=args.compartment_id,
-        output_location=args.output_location,
-        debug=args.debug,
-        debug_files=args.debugFiles,
+    started_at = datetime.now().astimezone()
+    started_timer = time.perf_counter()
+    print(
+        "Refreshing data file at {} (started {})".format(
+            args.output_location, started_at.isoformat(timespec="seconds")
+        ),
+        flush=True,
     )
+    try:
+        generate_output(
+            profile_name=args.profile_name,
+            profile_location=args.profile_location,
+            compartment_id=args.compartment_id,
+            output_location=args.output_location,
+            debug=args.debug,
+            debug_files=args.debugFiles,
+        )
+    finally:
+        elapsed_seconds = time.perf_counter() - started_timer
+        print(
+            "generate_output took {:.2f} seconds".format(elapsed_seconds),
+            flush=True,
+        )
 
 
 # Start the background worker that continuously refreshes OCI data.

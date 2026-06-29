@@ -17,4 +17,4 @@ if [[ -z "${OCI_COMPANION_SSL_KEY_FILE:-}" && -f /app/certs/localhost-key.pem ]]
     export OCI_COMPANION_SSL_KEY_FILE=/app/certs/localhost-key.pem
 fi
 
-exec python3 ./app.py "$@"
+exec python3 ./engine/app.py "$@"

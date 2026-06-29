@@ -12,7 +12,8 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY DocumentRoot ./DocumentRoot
-COPY app.py oci-web1.py start.sh ./
+COPY engine ./engine
+COPY start.sh ./
 
 RUN chmod 755 /app/start.sh
 

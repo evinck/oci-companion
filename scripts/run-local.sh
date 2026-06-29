@@ -1,15 +1,18 @@
 #!/bin/bash
 
 # To run in UI debug mode:
-# ./run-local.sh --ui-debug
+# scripts/run-local.sh --ui-debug
 #
 # To run without OCI IAM authentication:
-# ./run-local.sh --noauth
+# scripts/run-local.sh --noauth
 
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 IMAGE_NAME="${IMAGE_NAME:-oci-companion:local}"
-DATA_FILE="${PWD}/DocumentRoot/data.json"
+LOCAL_ENV_FILE="${LOCAL_ENV_FILE:-${REPO_ROOT}/.env-localhost}"
+DATA_FILE="${DATA_FILE:-${REPO_ROOT}/DocumentRoot/data.json}"
 
 is_truthy() {
     case "${1:-}" in
@@ -38,11 +41,11 @@ env_file_value() {
     local key="$1"
     local line
 
-    if [[ ! -f "${PWD}/.env" ]]; then
+    if [[ ! -f "${LOCAL_ENV_FILE}" ]]; then
         return 1
     fi
 
-    line="$(grep -E "^[[:space:]]*${key}=" "${PWD}/.env" | tail -n 1 || true)"
+    line="$(grep -E "^[[:space:]]*${key}=" "${LOCAL_ENV_FILE}" | tail -n 1 || true)"
     if [[ -z "${line}" ]]; then
         return 1
     fi
@@ -85,7 +88,7 @@ if is_truthy "${noauth_value}" && ! has_arg "--noauth" "$@"; then
     container_args+=("--noauth")
 fi
 
-podman build -t "${IMAGE_NAME}" .
+podman build -t "${IMAGE_NAME}" -f "${REPO_ROOT}/Dockerfile" "${REPO_ROOT}"
 
 run_args=(
     --rm
@@ -94,12 +97,12 @@ run_args=(
     -v "${HOME}/.oci:/root/.oci:Z"
 )
 
-if [[ -d "${PWD}/certs" ]]; then
-    run_args+=(-v "${PWD}/certs:/app/certs:Z")
+if [[ -d "${REPO_ROOT}/certs" ]]; then
+    run_args+=(-v "${REPO_ROOT}/certs:/app/certs:Z")
 fi
 
-if [[ -f "${PWD}/.env" ]]; then
-    run_args+=(-v "${PWD}/.env:/app/.env:Z")
+if [[ -f "${LOCAL_ENV_FILE}" ]]; then
+    run_args+=(-v "${LOCAL_ENV_FILE}:/app/.env:Z")
 fi
 
 if has_arg "--noauth" "${container_args[@]}"; then

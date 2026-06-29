@@ -19,9 +19,16 @@
     </header>
 
     <main>
+        <div id="loading-message" class="loading-message" role="status" aria-live="polite">
+            Loading... please wait
+        </div>
         <section class="split-container">
             <div class="pane compartments-pane">
                 <h2>Compartments</h2>
+                <div class="toolbar compartment-toolbar">
+                    <button id="compartmentsOpenAll" type="button">Open all</button>
+                    <button id="compartmentsCloseAll" type="button">Close all</button>
+                </div>
                 <div class="compartment-search">
                     <input
                         id="compartment-search"
@@ -29,10 +36,6 @@
                         placeholder="Search compartments"
                         autocomplete="off"
                         aria-label="Search compartments">
-                    <div class="toolbar compartment-toolbar">
-                        <button id="compartmentsOpenAll" type="button">Open all</button>
-                        <button id="compartmentsCloseAll" type="button">Close all</button>
-                    </div>
                 </div>
                 <div id="compartment-search-status" class="search-status" aria-live="polite"></div>
                 <div id="compartment-tree" class="tree-container"></div>
@@ -75,19 +78,31 @@
                 dataType: 'json',
                 cache: false
             }).done(function (jsonData) {
-                var sourceData = Array.isArray(jsonData) ? jsonData : (jsonData.nodes || []);
-                originalData = sourceData;
-                if (jsonData.generated_at) {
-                    $('#generated-at').text(' | generated at ' + jsonData.generated_at);
-                } else {
-                    $('#generated-at').text(' | generated at unknown');
-                }
-                buildMaps(sourceData);
-                initializeCompartmentTree();
-                initializeResourceTree();
+                setLoadingMessage('Rendering inventory... please wait');
+                window.setTimeout(function () {
+                    var sourceData = Array.isArray(jsonData) ? jsonData : (jsonData.nodes || []);
+                    originalData = sourceData;
+                    if (jsonData.generated_at) {
+                        $('#generated-at').text(' | generated at ' + jsonData.generated_at);
+                    } else {
+                        $('#generated-at').text(' | generated at unknown');
+                    }
+                    buildMaps(sourceData);
+                    initializeResourceTree();
+                    initializeCompartmentTree();
+                }, 0);
             }).fail(function () {
                 $('#generated-at').text(' | generated at unavailable');
+                setLoadingMessage('Unable to load inventory data');
             });
+
+            function setLoadingMessage(message) {
+                $('#loading-message').text(message).removeAttr('hidden');
+            }
+
+            function hideLoadingMessage() {
+                $('#loading-message').attr('hidden', true);
+            }
 
             function updateSessionStatus(sessionData) {
                 var logoutLink = $('#logout-link');
@@ -282,6 +297,7 @@
                             tree.open_node(flatNodes[0].id);
                             tree.select_node(flatNodes[0].id);
                         }
+                        hideLoadingMessage();
                     })
                     .on('search.jstree', function (e, data) {
                         handleCompartmentSearchResults(extractCompartmentSearchMatchIds(data), data.str || '');
